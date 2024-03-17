@@ -1,0 +1,65 @@
+{
+    "chainsData": [
+        {
+            "chainData": {
+                "chainName": "BNB Smart Chain Test",
+                "chainId": 97,
+                "rpcUrl": "https:\/\/data-seed-prebsc-1-s3.binance.org:8545",
+                "BlockExplorerURL": "https:\/\/testnet.bscscan.com",
+                "symbol": "BNB",
+                "standardTokens": "bep20",
+                "status": 1
+            },
+            "contractMultiTokensData": {
+                "nameCoin": "MultiTokens",
+                "addressCoin": "0x2CCd44BfED560FcBb07cde34340D2835F8A32d31",
+                "decimals": 18,
+                "abiCoin": ""
+            }
+        },
+        {
+            "chainData": {
+                "chainName": "Binance Smart Chain Mainnet",
+                "chainId": 56,
+                "rpcUrl": "https:\/\/bsc-dataseed1.binance.org",
+                "BlockExplorerURL": "https:\/\/bscscan.com",
+                "symbol": "BNB",
+                "standardTokens": "bep20",
+                "status": 1
+            }
+        },
+        {
+            "chainData": {
+                "chainName": "Polygon Mainnet",
+                "chainId": 137,
+                "rpcUrl": "https:\/\/polygon-rpc.com\/",
+                "BlockExplorerURL": "https:\/\/polygonscan.com",
+                "symbol": "MATIC",
+                "standardTokens": "",
+                "status": 1
+            }
+        },
+        {
+            "chainData": {
+                "chainName": "Avalanche C-Chain",
+                "chainId": 43114,
+                "rpcUrl": "https:\/\/api.avax.network\/ext\/bc\/C\/rpc",
+                "BlockExplorerURL": "https:\/\/snowtrace.io",
+                "symbol": "AVAX",
+                "standardTokens": "",
+                "status": 1
+            }
+        },
+        {
+            "chainData": {
+                "chainName": "Fantom Opera",
+                "chainId": 250,
+                "rpcUrl": "https:\/\/rpc.ftm.tools",
+                "BlockExplorerURL": "https:\/\/ftmscan.com",
+                "symbol": "FTM",
+                "standardTokens": "",
+                "status": 1
+            }
+        }
+    ]
+}
