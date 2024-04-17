@@ -368,6 +368,7 @@ h2 {
     background: #007bff;
     width: 20%;
     height: 10px;
+    transition: 1s linear;
 }
 .progressBlock .progressLine.pBlue {
     background: #007bff;
