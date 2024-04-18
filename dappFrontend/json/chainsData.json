@@ -55,6 +55,12 @@
                 "addressCoin": "0x3DE0f9370F5d3ce504b215eaD37CC4e4Dd2602fE",
                 "decimals": 18,
                 "abiCoin": ""
+            },
+            "contractTokensMultiTransfersData": {
+                "nameCoin": "TokensMultiTransfers",
+                "addressCoin": "0x9Fc97F105c7A5048B58864E57EB04c011952ad77",
+                "decimals": 18,
+                "abiCoin": ""
             }
         },
         {
