@@ -83,6 +83,12 @@
                 "symbol": "FTM",
                 "standardTokens": "",
                 "status": 1
+            },
+            "contractTokensMultiTransfersData": {
+                "nameCoin": "TokensMultiTransfers",
+                "addressCoin": "0xA46c35aA5DF1B09d8CE32E60e883860c8440e5a0",
+                "decimals": 18,
+                "abiCoin": ""
             }
         }
     ]
