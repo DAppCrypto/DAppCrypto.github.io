@@ -3,73 +3,108 @@
         {
             "chainData": {
                 "chainName": "BNB Smart Chain Test",
+                "chainName2": "BNB Smart Chain Test",
                 "chainId": 97,
                 "rpcUrl": "https:\/\/data-seed-prebsc-1-s3.binance.org:8545",
                 "BlockExplorerURL": "https:\/\/testnet.bscscan.com",
                 "symbol": "BNB",
+                "symbol2": "BNB",
                 "standardTokens": "bep20",
                 "status": 1
             },
-            "contractMultiTokensData": {
-                "nameCoin": "MultiTokens",
-                "addressCoin": "0x3DE0f9370F5d3ce504b215eaD37CC4e4Dd2602fE",
-                "decimals": 18,
-                "abiCoin": ""
-            },
-            "contractTokensMultiTransfersData": {
-                "nameCoin": "TokensMultiTransfers",
-                "addressCoin": "0x9Fc97F105c7A5048B58864E57EB04c011952ad77",
-                "decimals": 18,
-                "abiCoin": ""
-            }
+            "contractMultiTokensData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.24",
+                    "nameCoin": "MultiTokens",
+                    "addressCoin": "0x3DE0f9370F5d3ce504b215eaD37CC4e4Dd2602fE",
+                    "decimals": 18,
+                    "abiCoin": ""
+                },
+                {
+                    "version": 2,
+                    "compiler": "0.8.24",
+                    "nameCoin": "MultiTokens",
+                    "addressCoin": "0xFdd8Cd0f9f834C41708Bbabbdf04797DCfc76347",
+                    "decimals": 18,
+                    "abiCoin": ""
+                }
+            ],
+            "contractTokensMultiTransfersData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.24",
+                    "nameCoin": "TokensMultiTransfers",
+                    "addressCoin": "0x9Fc97F105c7A5048B58864E57EB04c011952ad77",
+                    "decimals": 18,
+                    "abiCoin": ""
+                }
+            ]
         },
         {
             "chainData": {
                 "chainName": "Binance Smart Chain Mainnet",
+                "chainName2": "BNB Smart Chain",
                 "chainId": 56,
                 "rpcUrl": "https:\/\/bsc-dataseed1.binance.org",
                 "BlockExplorerURL": "https:\/\/bscscan.com",
                 "symbol": "BNB",
+                "symbol2": "BNB",
                 "standardTokens": "bep20",
                 "status": 1
             },
-            "contractMultiTokensData": {
-                "nameCoin": "MultiTokens",
-                "addressCoin": "0x3DE0f9370F5d3ce504b215eaD37CC4e4Dd2602fE",
-                "decimals": 18,
-                "abiCoin": ""
-            }
+            "contractMultiTokensData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.24",
+                    "nameCoin": "MultiTokens",
+                    "addressCoin": "0x3DE0f9370F5d3ce504b215eaD37CC4e4Dd2602fE",
+                    "decimals": 18,
+                    "abiCoin": ""
+                }
+            ]
         },
         {
             "chainData": {
                 "chainName": "Polygon Mainnet",
+                "chainName2": "Polygon",
                 "chainId": 137,
                 "rpcUrl": "https:\/\/polygon-rpc.com\/",
                 "BlockExplorerURL": "https:\/\/polygonscan.com",
                 "symbol": "MATIC",
+                "symbol2": "MATIC",
                 "standardTokens": "",
                 "status": 1
             },
-            "contractMultiTokensData": {
-                "nameCoin": "MultiTokens",
-                "addressCoin": "0x3DE0f9370F5d3ce504b215eaD37CC4e4Dd2602fE",
-                "decimals": 18,
-                "abiCoin": ""
-            },
-            "contractTokensMultiTransfersData": {
-                "nameCoin": "TokensMultiTransfers",
-                "addressCoin": "0x9Fc97F105c7A5048B58864E57EB04c011952ad77",
-                "decimals": 18,
-                "abiCoin": ""
-            }
+            "contractMultiTokensData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.24",
+                    "nameCoin": "MultiTokens",
+                    "addressCoin": "0x3DE0f9370F5d3ce504b215eaD37CC4e4Dd2602fE",
+                    "decimals": 18,
+                    "abiCoin": ""
+                }
+            ],
+            "contractTokensMultiTransfersData": [
+                {
+                    "version": 1,
+                    "nameCoin": "TokensMultiTransfers",
+                    "addressCoin": "0x9Fc97F105c7A5048B58864E57EB04c011952ad77",
+                    "decimals": 18,
+                    "abiCoin": ""
+                }
+            ]
         },
         {
             "chainData": {
                 "chainName": "Avalanche C-Chain",
+                "chainName2": "AVAX C-Chain",
                 "chainId": 43114,
                 "rpcUrl": "https:\/\/api.avax.network\/ext\/bc\/C\/rpc",
                 "BlockExplorerURL": "https:\/\/snowtrace.io",
                 "symbol": "AVAX",
+                "symbol2": "AVAX",
                 "standardTokens": "",
                 "status": 1
             }
@@ -77,24 +112,112 @@
         {
             "chainData": {
                 "chainName": "Fantom Opera",
+                "chainName2": "Fantom",
                 "chainId": 250,
                 "rpcUrl": "https:\/\/rpc.ftm.tools",
                 "BlockExplorerURL": "https:\/\/ftmscan.com",
                 "symbol": "FTM",
+                "symbol2": "FTM",
                 "standardTokens": "",
                 "status": 1
             },
-            "contractMultiTokensData": {
-                "nameCoin": "MultiTokens",
-                "addressCoin": "0xFdd8Cd0f9f834C41708Bbabbdf04797DCfc76347",
-                "decimals": 18,
-                "abiCoin": ""
-            },
-            "contractTokensMultiTransfersData": {
-                "nameCoin": "TokensMultiTransfers",
-                "addressCoin": "0xA46c35aA5DF1B09d8CE32E60e883860c8440e5a0",
-                "decimals": 18,
-                "abiCoin": ""
+            "contractMultiTokensData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.18",
+                    "nameCoin": "MultiTokens",
+                    "addressCoin": "0xFdd8Cd0f9f834C41708Bbabbdf04797DCfc76347",
+                    "decimals": 18,
+                    "abiCoin": ""
+                }
+            ],
+            "contractTokensMultiTransfersData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.18",
+                    "nameCoin": "TokensMultiTransfers",
+                    "addressCoin": "0xA46c35aA5DF1B09d8CE32E60e883860c8440e5a0",
+                    "decimals": 18,
+                    "abiCoin": ""
+                }
+            ]
+        },
+        {
+            "chainData": {
+                "chainName": "Theta Mainnet",
+                "chainName2": "Theta",
+                "chainId": 361,
+                "rpcUrl": "https:\/\/eth-rpc-api.thetatoken.org\/rpc",
+                "BlockExplorerURL": "https:\/\/explorer.thetatoken.org",
+                "symbol": "TFUEL",
+                "symbol2": "TFUEL",
+                "standardTokens": "",
+                "status": 1
+            }
+        },
+        {
+            "chainData": {
+                "chainName": "Arbitrum One",
+                "chainName2": "Arbitrum",
+                "chainId": 42161,
+                "rpcUrl": "https:\/\/arb1.arbitrum.io\/rpc",
+                "BlockExplorerURL": "https:\/\/arbiscan.io",
+                "symbol": "ETH",
+                "symbol2": "ARB",
+                "standardTokens": "",
+                "status": 1
+            }
+        },
+        {
+            "chainData": {
+                "chainName": "Base",
+                "chainName2": "Base",
+                "chainId": 8453,
+                "rpcUrl": "https:\/\/mainnet.base.org",
+                "BlockExplorerURL": "https:\/\/basescan.org",
+                "symbol": "ETH",
+                "symbol2": "BASE",
+                "standardTokens": "",
+                "status": 1
+            }
+        },
+        {
+            "chainData": {
+                "chainName": "OP Mainnet",
+                "chainName2": "Optimism",
+                "chainId": 10,
+                "rpcUrl": "https:\/\/mainnet.optimism.io",
+                "BlockExplorerURL": "https:\/\/optimistic.etherscan.io",
+                "symbol": "ETH",
+                "symbol2": "OP",
+                "standardTokens": "",
+                "status": 1
+            }
+        },
+        {
+            "chainData": {
+                "chainName": "Mantle",
+                "chainName2": "Mantle",
+                "chainId": 5000,
+                "rpcUrl": "https:\/\/rpc.mantle.xyz",
+                "BlockExplorerURL": "https:\/\/explorer.mantle.xyz",
+                "symbol": "MNT",
+                "symbol2": "MNT",
+                "standardTokens": "",
+                "status": 1
+            }
+        },
+        {
+            "chainData": {
+                "chainName": "Polygon zkEVM",
+                "chainName2": "Polygon zkEVM",
+                "chainId": 1101,
+                "rpcUrl": "https:\/\/zkevm-rpc.com",
+                "BlockExplorerURL": "https:\/\/zkevm.polygonscan.com",
+                "symbol": "ETH",
+                "symbol2": "Polygon-zkEVM",
+                "standardTokens": "",
+                "status": 1
             }
         }
     ]

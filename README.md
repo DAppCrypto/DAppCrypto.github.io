@@ -6,9 +6,11 @@
 - Website: https://dappcrypto.github.io/
 - GitHub: https://github.com/DAppCrypto
 - X/Twitter: https://twitter.com/DAppCryptos
-- Telegram: https://t.me/DAppCryptos
+- Telegram Announcements: https://t.me/DAppCryptos
+- Telegram Activity: https://t.me/DAppCryptoTG
 
 ### Versions
+- 1.0.7 - allows you to create simple tokens v2 in the BNB Smart Chain Testnet.
 - 1.0.6 - support for creating new tokens on the Fantom Opera (FTM).
 - 1.0.5 - MultiTransfers supports bulk transfers of tokens and FTM to the Fantom Opera (FTM).
 - 1.0.4 - MultiTransfers supports bulk transfers of tokens and MATIC to the Polygon Mainnet (MATIC).

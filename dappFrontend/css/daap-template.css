@@ -621,9 +621,9 @@ h2 {
 
 /* Search Staking */
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentStakingBlock] .contentBlock {
-    max-width: 96%;
-    background: none;
-    display: block;
+    /*max-width: 96%;*/
+    /*background: none;*/
+    /*display: block;*/
 }
 
 .dAppWidgetHtml {
