@@ -52,17 +52,7 @@
                 "symbol2": "BNB",
                 "standardTokens": "bep20",
                 "status": 1
-            },
-            "contractMultiTokensData": [
-                {
-                    "version": 1,
-                    "compiler": "0.8.24",
-                    "nameCoin": "MultiTokens",
-                    "addressCoin": "0x3DE0f9370F5d3ce504b215eaD37CC4e4Dd2602fE",
-                    "decimals": 18,
-                    "abiCoin": ""
-                }
-            ]
+            }
         },
         {
             "chainData": {
@@ -76,16 +66,6 @@
                 "standardTokens": "",
                 "status": 1
             },
-            "contractMultiTokensData": [
-                {
-                    "version": 1,
-                    "compiler": "0.8.24",
-                    "nameCoin": "MultiTokens",
-                    "addressCoin": "0x3DE0f9370F5d3ce504b215eaD37CC4e4Dd2602fE",
-                    "decimals": 18,
-                    "abiCoin": ""
-                }
-            ],
             "contractTokensMultiTransfersData": [
                 {
                     "version": 1,
@@ -121,16 +101,6 @@
                 "standardTokens": "",
                 "status": 1
             },
-            "contractMultiTokensData": [
-                {
-                    "version": 1,
-                    "compiler": "0.8.18",
-                    "nameCoin": "MultiTokens",
-                    "addressCoin": "0xFdd8Cd0f9f834C41708Bbabbdf04797DCfc76347",
-                    "decimals": 18,
-                    "abiCoin": ""
-                }
-            ],
             "contractTokensMultiTransfersData": [
                 {
                     "version": 1,
