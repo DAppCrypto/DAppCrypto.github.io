@@ -10,6 +10,7 @@
 - Telegram Activity: https://t.me/DAppCryptoTG
 
 ### Versions
+- 1.0.8 - support for creating new simple tokens v2 on the Binance Smart Chain #BNB, Polygon #MATIC, Fantom Opera #FTM.
 - 1.0.7 - allows you to create simple tokens v2 in the BNB Smart Chain Testnet.
 - 1.0.6 - support for creating new tokens on the Fantom Opera (FTM).
 - 1.0.5 - MultiTransfers supports bulk transfers of tokens and FTM to the Fantom Opera (FTM).

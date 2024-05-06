@@ -25,7 +25,7 @@
                     "version": 2,
                     "compiler": "0.8.24",
                     "nameCoin": "MultiTokens",
-                    "addressCoin": "0xFdd8Cd0f9f834C41708Bbabbdf04797DCfc76347",
+                    "addressCoin": "0x0538031Ffe0ad97dA109E2E32538C8ebDE66eEa6",
                     "decimals": 18,
                     "abiCoin": ""
                 }
@@ -52,7 +52,25 @@
                 "symbol2": "BNB",
                 "standardTokens": "bep20",
                 "status": 1
-            }
+            },
+            "contractMultiTokensData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.24",
+                    "nameCoin": "MultiTokens",
+                    "addressCoin": "0x3DE0f9370F5d3ce504b215eaD37CC4e4Dd2602fE",
+                    "decimals": 18,
+                    "abiCoin": ""
+                },
+                {
+                    "version": 2,
+                    "compiler": "0.8.24",
+                    "nameCoin": "MultiTokens",
+                    "addressCoin": "0x0538031Ffe0ad97dA109E2E32538C8ebDE66eEa6",
+                    "decimals": 18,
+                    "abiCoin": ""
+                }
+            ]
         },
         {
             "chainData": {
@@ -66,6 +84,24 @@
                 "standardTokens": "",
                 "status": 1
             },
+            "contractMultiTokensData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.24",
+                    "nameCoin": "MultiTokens",
+                    "addressCoin": "0x3DE0f9370F5d3ce504b215eaD37CC4e4Dd2602fE",
+                    "decimals": 18,
+                    "abiCoin": ""
+                },
+                {
+                    "version": 2,
+                    "compiler": "0.8.24",
+                    "nameCoin": "MultiTokens",
+                    "addressCoin": "0x0538031Ffe0ad97dA109E2E32538C8ebDE66eEa6",
+                    "decimals": 18,
+                    "abiCoin": ""
+                }
+            ],
             "contractTokensMultiTransfersData": [
                 {
                     "version": 1,
@@ -86,7 +122,7 @@
                 "symbol": "AVAX",
                 "symbol2": "AVAX",
                 "standardTokens": "",
-                "status": 1
+                "status": 0
             }
         },
         {
@@ -101,6 +137,24 @@
                 "standardTokens": "",
                 "status": 1
             },
+            "contractMultiTokensData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.18",
+                    "nameCoin": "MultiTokens",
+                    "addressCoin": "0xFdd8Cd0f9f834C41708Bbabbdf04797DCfc76347",
+                    "decimals": 18,
+                    "abiCoin": ""
+                },
+                {
+                    "version": 2,
+                    "compiler": "0.8.24",
+                    "nameCoin": "MultiTokens",
+                    "addressCoin": "0x94E9bC39950B4be9DF5d032B0129128686829F52",
+                    "decimals": 18,
+                    "abiCoin": ""
+                }
+            ],
             "contractTokensMultiTransfersData": [
                 {
                     "version": 1,
@@ -122,7 +176,7 @@
                 "symbol": "TFUEL",
                 "symbol2": "TFUEL",
                 "standardTokens": "",
-                "status": 1
+                "status": 0
             }
         },
         {
@@ -135,7 +189,7 @@
                 "symbol": "ETH",
                 "symbol2": "ARB",
                 "standardTokens": "",
-                "status": 1
+                "status": 0
             }
         },
         {
@@ -148,7 +202,7 @@
                 "symbol": "ETH",
                 "symbol2": "BASE",
                 "standardTokens": "",
-                "status": 1
+                "status": 0
             }
         },
         {
@@ -161,7 +215,7 @@
                 "symbol": "ETH",
                 "symbol2": "OP",
                 "standardTokens": "",
-                "status": 1
+                "status": 0
             }
         },
         {
@@ -174,7 +228,7 @@
                 "symbol": "MNT",
                 "symbol2": "MNT",
                 "standardTokens": "",
-                "status": 1
+                "status": 0
             }
         },
         {
@@ -187,7 +241,7 @@
                 "symbol": "ETH",
                 "symbol2": "Polygon-zkEVM",
                 "standardTokens": "",
-                "status": 1
+                "status": 0
             }
         }
     ]
