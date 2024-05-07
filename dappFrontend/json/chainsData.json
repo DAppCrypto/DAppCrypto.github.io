@@ -189,7 +189,7 @@
                 "symbol": "ETH",
                 "symbol2": "ARB",
                 "standardTokens": "",
-                "status": 0
+                "status": 1
             },
             "contractMultiTokensData": [
                 {
