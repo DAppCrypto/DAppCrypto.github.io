@@ -70,6 +70,16 @@
                     "decimals": 18,
                     "abiCoin": ""
                 }
+            ],
+            "contractTokensMultiTransfersData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.24",
+                    "nameCoin": "TokensMultiTransfers",
+                    "addressCoin": "0x1B3e9534d6653545dCBBc5e86Ad6842c1bb9cCc1",
+                    "decimals": 18,
+                    "abiCoin": ""
+                }
             ]
         },
         {

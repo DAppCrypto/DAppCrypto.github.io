@@ -10,6 +10,7 @@
 - Telegram Activity: https://t.me/DAppCryptoTG
 
 ### Versions
+- 1.0.10 - MultiTransfers supports bulk transfers of tokens and BNB to the Binance Smart Chain $BNB.
 - 1.0.9 - support for creating new simple tokens v2 with a promo page on the Arbitrum $ARB.
 - 1.0.8 - support for creating new simple tokens v2 on the Binance Smart Chain $BNB, Polygon $MATIC, Fantom Opera $FTM.
 - 1.0.7 - allows you to create simple tokens v2 in the BNB Smart Chain Testnet.
