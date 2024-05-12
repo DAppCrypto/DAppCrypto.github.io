@@ -39,6 +39,28 @@
                     "decimals": 18,
                     "abiCoin": ""
                 }
+            ],
+            "contractLPToolsData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.24",
+                    "nameCoin": "LPTools",
+                    "addressCoin": "0x1B3e9534d6653545dCBBc5e86Ad6842c1bb9cCc1",
+                    "decimals": 18,
+                    "abiCoin": ""
+                }
+            ],
+            "contractSwapArr": [
+                {
+                    "contractSwapRouter": {
+                        "linkSwap": "https://pancakeswap.finance/swap?chain=bscTestnet&outputCurrency=0x...",
+                        "nameCoin": "PancakeSwap v2",
+                        "addressCoin": "0xD99D1c33F9fC3444f8101754aBC46c52416550D1",
+                        "decimals": 18,
+                        "WETH": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+                        "abiCoin": ""
+                    }
+                }
             ]
         },
         {
