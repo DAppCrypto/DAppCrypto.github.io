@@ -257,8 +257,18 @@
                 "symbol": "ETH",
                 "symbol2": "OP",
                 "standardTokens": "",
-                "status": 0
-            }
+                "status": 1
+            },
+            "contractMultiTokensData": [
+                {
+                    "version": 2,
+                    "compiler": "0.8.24",
+                    "nameCoin": "MultiTokens",
+                    "addressCoin": "0x0538031Ffe0ad97dA109E2E32538C8ebDE66eEa6",
+                    "decimals": 18,
+                    "abiCoin": ""
+                }
+            ]
         },
         {
             "chainData": {
