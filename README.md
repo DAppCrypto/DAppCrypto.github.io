@@ -11,6 +11,7 @@
 - Telegram Activity: https://t.me/DAppCryptoTG
 
 ### Versions
+- 1.0.13 - support for adding first liquidity Uniswap V2 to tokens on the Polygon $MATIC. Experimental.
 - 1.0.12 - support for creating new simple tokens v2 with a promo page on the Optimism $OP.
 - 1.0.11 - Added support for adding first liquidity v2 to tokens on the BNB Smart Chain Testnet. 
 - 1.0.10 - MultiTransfers supports bulk transfers of tokens and BNB to the Binance Smart Chain $BNB.
@@ -33,7 +34,7 @@
 | tBNB | + | + | + |
 | BNB | + | + | - |
 | Avalanche C-Chain | - | - | - |
-| Polygon | + | + | - |
+| Polygon | + | + | + |
 | Fantom | + | + | - |
 | Arbitrum | + | - | - |
 | Base | - | - | - |
@@ -48,7 +49,7 @@
 | tBNB | - | + | - | - |
 | BNB | - | - | - | - |
 | Avalanche C-Chain | - | - | - | - |
-| Polygon | - | - | - | - |
+| Polygon | + | - | - | - |
 | Fantom | - | - | - | - |
 | Arbitrum | - | - | - | - |
 | Base | - | - | - | - |
