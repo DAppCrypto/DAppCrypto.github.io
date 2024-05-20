@@ -820,3 +820,18 @@ h2 {
 .chartsPieBlock canvas {
     margin: 0 auto;
 }
+
+/* Copy Content */
+
+.dAppCopyContent {
+    background-image: url(../imgs/icons/copy.png);
+    background-size: 100%;
+    width: 16px;
+    height: 16px;
+    display: block;
+    font-size: 0px;
+    opacity: 0.5;
+}
+.dAppCopyContent:hover {
+    opacity: 1;
+}

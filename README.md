@@ -11,6 +11,7 @@
 - Telegram Activity: https://t.me/DAppCryptoTG
 
 ### Versions
+- 1.0.14 - support for adding first liquidity Uniswap V2, SushiSwap v2, QuickSwap v2 to tokens on the Polygon $MATIC. Experimental.
 - 1.0.13 - support for adding first liquidity Uniswap V2 to tokens on the Polygon $MATIC. Experimental.
 - 1.0.12 - support for creating new simple tokens v2 with a promo page on the Optimism $OP.
 - 1.0.11 - Added support for adding first liquidity v2 to tokens on the BNB Smart Chain Testnet. 
@@ -43,17 +44,17 @@
 
 #### Create LP table
 
-| # | Uni v2 | Pancake v2 | Sushi v2 | Spooky v2 |
-| :-----: | :-----: | :-----: | :-----: | :-----: |
-| ETH | - | - | - | - |
-| tBNB | - | + | - | - |
-| BNB | - | - | - | - |
-| Avalanche C-Chain | - | - | - | - |
-| Polygon | + | - | - | - |
-| Fantom | - | - | - | - |
-| Arbitrum | - | - | - | - |
-| Base | - | - | - | - |
-| Optimism | - | - | - | - |
+| # | Uni Swap v2 | Pancake Swap v2 | Sushi Swap v2 | Spooky Swap v2 | Quick Swap v2 |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| ETH | - | - | - | - | - |
+| tBNB | - | + | - | - | - |
+| BNB | - | - | - | - | - |
+| Avalanche C-Chain | - | - | - | - | - |
+| Polygon | + | - | + | - | + |
+| Fantom | - | - | - | - | - |
+| Arbitrum | - | - | - | - | - |
+| Base | - | - | - | - | - |
+| Optimism | - | - | - | - | - |
 
 You can speed up chains support by donation:
 ```
