@@ -20,7 +20,7 @@
 | Avalanche C-Chain | - | - | - |
 | Polygon | + | + | + |
 | Fantom | + | + | - |
-| Arbitrum | + | - | - |
+| Arbitrum | + | + | - |
 | Base | + | - | - |
 | Optimism | + | - | - |
 
@@ -41,6 +41,7 @@
 
 ### Versions
 
+- [v1.0.16](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.16) - MultiTransfers supports bulk transfers of tokens and ETH to the Arbitrum $ARB.
 - [v1.0.15](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.15) - support for creating new simple tokens v2 with a promo page on the BASE.
 - [v1.0.14](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.14) - support for adding first liquidity Uniswap V2, SushiSwap v2, QuickSwap v2 to tokens on the Polygon $MATIC. Experimental.
 - [v1.0.13](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.13) - support for adding first liquidity Uniswap V2 to tokens on the Polygon $MATIC. Experimental.
