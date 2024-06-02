@@ -12,17 +12,17 @@
 
 #### DAppCrypto table
 
-| # | Create Tokens | Multi Transfers | Create LP |
-| :-----: | :-----: | :-----: | :-----: |
-| ETH | - | - | - |
-| tBNB | + | + | + |
-| BNB | + | + | - |
-| Avalanche C-Chain | - | - | - |
-| Polygon | + | + | + |
-| Fantom | + | + | - |
-| Arbitrum | + | + | - |
-| Base | + | - | - |
-| Optimism | + | - | - |
+| # | Create Tokens | Multi Transfers | Create LP | Lock |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| ETH | - | - | - | - |
+| tBNB | + | + | + | + |
+| BNB | + | + | - | - |
+| Avalanche C-Chain | - | - | - | - |
+| Polygon | + | + | + | - |
+| Fantom | + | + | - | - |
+| Arbitrum | + | + | - | - |
+| Base | + | - | - | - |
+| Optimism | + | - | - | - |
 
 
 #### Create LP table
@@ -41,6 +41,7 @@
 
 ### Versions
 
+- [v1.0.17](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.17) - allows you to lock tokens and liquidity on the BNB Smart Chain Testnet $BNB.
 - [v1.0.16](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.16) - MultiTransfers supports bulk transfers of tokens and ETH to the Arbitrum $ARB.
 - [v1.0.15](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.15) - support for creating new simple tokens v2 with a promo page on the BASE.
 - [v1.0.14](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.14) - support for adding first liquidity Uniswap V2, SushiSwap v2, QuickSwap v2 to tokens on the Polygon $MATIC. Experimental.

@@ -19,7 +19,8 @@
                     "nameCoin": "MultiTokens",
                     "addressCoin": "0x3DE0f9370F5d3ce504b215eaD37CC4e4Dd2602fE",
                     "decimals": 18,
-                    "abiCoin": ""
+                    "abiCoin": "",
+                    "status": 1
                 },
                 {
                     "version": 2,
@@ -27,7 +28,8 @@
                     "nameCoin": "MultiTokens",
                     "addressCoin": "0x0538031Ffe0ad97dA109E2E32538C8ebDE66eEa6",
                     "decimals": 18,
-                    "abiCoin": ""
+                    "abiCoin": "",
+                    "status": 1
                 }
             ],
             "contractTokensMultiTransfersData": [
@@ -37,7 +39,19 @@
                     "nameCoin": "TokensMultiTransfers",
                     "addressCoin": "0x9Fc97F105c7A5048B58864E57EB04c011952ad77",
                     "decimals": 18,
-                    "abiCoin": ""
+                    "abiCoin": "",
+                    "status": 1
+                }
+            ],
+            "contractMultiLocksData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.24",
+                    "nameCoin": "MultiLocks",
+                    "addressCoin": "0x596D8cD43518CdEeD5d172efE06F50bc9Bc6C2b4",
+                    "decimals": 18,
+                    "abiCoin": "",
+                    "status": 1
                 }
             ],
             "contractLPToolsData": [
@@ -47,7 +61,8 @@
                     "nameCoin": "LPTools",
                     "addressCoin": "0x1B3e9534d6653545dCBBc5e86Ad6842c1bb9cCc1",
                     "decimals": 18,
-                    "abiCoin": ""
+                    "abiCoin": "",
+                    "status": 0
                 }
             ],
             "contractSwapArr": [
@@ -58,8 +73,33 @@
                         "addressCoin": "0xD99D1c33F9fC3444f8101754aBC46c52416550D1",
                         "decimals": 18,
                         "WETH": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
-                        "abiCoin": ""
+                        "abiCoin": "",
+                    "status": 1
                     }
+                }
+            ]
+        },
+        {
+            "chainData": {
+                "chainName": "Ethereum Mainnet",
+                "chainName2": "Ethereum",
+                "chainId": 1,
+                "rpcUrl": "https:\/\/ethereum-rpc.publicnode.com",
+                "BlockExplorerURL": "https:\/\/etherscan.io",
+                "symbol": "ETH",
+                "symbol2": "ETH",
+                "standardTokens": "erc20",
+                "status": 0
+            },
+            "contractMultiTokensData": [
+                {
+                    "version": 2,
+                    "compiler": "0.8.24",
+                    "nameCoin": "MultiTokens",
+                    "addressCoin": "0x0538031Ffe0ad97dA109E2E32538C8ebDE66eEa6",
+                    "decimals": 18,
+                    "abiCoin": "",
+                    "status": 0
                 }
             ]
         },
@@ -82,7 +122,8 @@
                     "nameCoin": "MultiTokens",
                     "addressCoin": "0x3DE0f9370F5d3ce504b215eaD37CC4e4Dd2602fE",
                     "decimals": 18,
-                    "abiCoin": ""
+                    "abiCoin": "",
+                    "status": 1
                 },
                 {
                     "version": 2,
@@ -90,7 +131,8 @@
                     "nameCoin": "MultiTokens",
                     "addressCoin": "0x0538031Ffe0ad97dA109E2E32538C8ebDE66eEa6",
                     "decimals": 18,
-                    "abiCoin": ""
+                    "abiCoin": "",
+                    "status": 1
                 }
             ],
             "contractTokensMultiTransfersData": [
@@ -100,7 +142,54 @@
                     "nameCoin": "TokensMultiTransfers",
                     "addressCoin": "0x1B3e9534d6653545dCBBc5e86Ad6842c1bb9cCc1",
                     "decimals": 18,
-                    "abiCoin": ""
+                    "abiCoin": "",
+                    "status": 1
+                }
+            ],
+            "contractLPToolsData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.24",
+                    "nameCoin": "LPTools",
+                    "addressCoin": "0xD5D3EEE8DBf63e10136A09233532abC1308E39d3",
+                    "decimals": 18,
+                    "abiCoin": "",
+                    "status": 0
+                }
+            ],
+            "contractSwapArr": [
+                {
+                    "contractSwapRouter": {
+                        "linkSwap": "https://pancakeswap.finance/swap?chain=bsc&outputCurrency=0x...",
+                        "nameCoin": "PancakeSwap v2",
+                        "addressCoin": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+                        "decimals": 18,
+                        "WETH": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+                        "abiCoin": "",
+                    "status": 1
+                    }
+                },
+                {
+                    "contractSwapRouter": {
+                        "linkSwap": "https://app.uniswap.org/explore/tokens/bnb/0x...",
+                        "nameCoin": "Uniswap V2",
+                        "addressCoin": "0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24",
+                        "decimals": 18,
+                        "WETH": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+                        "abiCoin": "",
+                    "status": 1
+                    }
+                },
+                {
+                    "contractSwapRouter": {
+                        "linkSwap": "https://www.sushi.com/swap?chainId=56&token0=NATIVE&token1=0x...",
+                        "nameCoin": "SushiSwap V2",
+                        "addressCoin": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+                        "decimals": 18,
+                        "WETH": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+                        "abiCoin": "",
+                    "status": 1
+                    }
                 }
             ]
         },
@@ -123,7 +212,8 @@
                     "nameCoin": "MultiTokens",
                     "addressCoin": "0x3DE0f9370F5d3ce504b215eaD37CC4e4Dd2602fE",
                     "decimals": 18,
-                    "abiCoin": ""
+                    "abiCoin": "",
+                    "status": 1
                 },
                 {
                     "version": 2,
@@ -131,7 +221,8 @@
                     "nameCoin": "MultiTokens",
                     "addressCoin": "0x0538031Ffe0ad97dA109E2E32538C8ebDE66eEa6",
                     "decimals": 18,
-                    "abiCoin": ""
+                    "abiCoin": "",
+                    "status": 1
                 }
             ],
             "contractTokensMultiTransfersData": [
@@ -140,7 +231,19 @@
                     "nameCoin": "TokensMultiTransfers",
                     "addressCoin": "0x9Fc97F105c7A5048B58864E57EB04c011952ad77",
                     "decimals": 18,
-                    "abiCoin": ""
+                    "abiCoin": "",
+                    "status": 1
+                }
+            ],
+            "contractMultiLocksData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.24",
+                    "nameCoin": "MultiLocks",
+                    "addressCoin": "0x596D8cD43518CdEeD5d172efE06F50bc9Bc6C2b4",
+                    "decimals": 18,
+                    "abiCoin": "",
+                    "status": 0
                 }
             ],
             "contractLPToolsData": [
@@ -150,7 +253,8 @@
                     "nameCoin": "LPTools",
                     "addressCoin": "0x1B3e9534d6653545dCBBc5e86Ad6842c1bb9cCc1",
                     "decimals": 18,
-                    "abiCoin": ""
+                    "abiCoin": "",
+                    "status": 0
                 }
             ],
             "contractSwapArr": [
@@ -161,7 +265,8 @@
                         "addressCoin": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff",
                         "decimals": 18,
                         "WETH": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                        "abiCoin": ""
+                        "abiCoin": "",
+                    "status": 1
                     }
                 },
                 {
@@ -171,7 +276,8 @@
                         "addressCoin": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
                         "decimals": 18,
                         "WETH": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                        "abiCoin": ""
+                        "abiCoin": "",
+                    "status": 1
                     }
                 },
                 {
@@ -181,7 +287,8 @@
                         "addressCoin": "0xedf6066a2b290C185783862C7F4776A2C8077AD1",
                         "decimals": 18,
                         "WETH": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
-                        "abiCoin": ""
+                        "abiCoin": "",
+                    "status": 1
                     }
                 }
             ]
@@ -218,15 +325,17 @@
                     "nameCoin": "MultiTokens",
                     "addressCoin": "0xFdd8Cd0f9f834C41708Bbabbdf04797DCfc76347",
                     "decimals": 18,
-                    "abiCoin": ""
+                    "abiCoin": "",
+                    "status": 1
                 },
                 {
                     "version": 2,
-                    "compiler": "0.8.24",
+                    "compiler": "0.8.18",
                     "nameCoin": "MultiTokens",
                     "addressCoin": "0x94E9bC39950B4be9DF5d032B0129128686829F52",
                     "decimals": 18,
-                    "abiCoin": ""
+                    "abiCoin": "",
+                    "status": 1
                 }
             ],
             "contractTokensMultiTransfersData": [
@@ -236,7 +345,43 @@
                     "nameCoin": "TokensMultiTransfers",
                     "addressCoin": "0xA46c35aA5DF1B09d8CE32E60e883860c8440e5a0",
                     "decimals": 18,
-                    "abiCoin": ""
+                    "abiCoin": "",
+                    "status": 1
+                }
+            ],
+            "contractMultiLocksData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.18",
+                    "nameCoin": "MultiLocks",
+                    "addressCoin": "0xe099f9D4CbceA59942AA0e9a5B7C249De6C688b9",
+                    "decimals": 18,
+                    "abiCoin": "",
+                    "status": 0
+                }
+            ],
+            "contractLPToolsData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.18",
+                    "nameCoin": "LPTools",
+                    "addressCoin": "0xf356073Dcd1e0d9160657e3A3f2648cCCF3574FD",
+                    "decimals": 18,
+                    "abiCoin": "",
+                    "status": 0
+                }
+            ],
+            "contractSwapArr": [
+                {
+                    "contractSwapRouter": {
+                        "linkSwap": "https://www.sushi.com/swap?chainId=250&token0=NATIVE&token1=0x...",
+                        "nameCoin": "SushiSwap V2",
+                        "addressCoin": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+                        "decimals": 18,
+                        "WETH": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+                        "abiCoin": "",
+                    "status": 1
+                    }
                 }
             ]
         },
@@ -272,7 +417,8 @@
                     "nameCoin": "MultiTokens",
                     "addressCoin": "0x0538031Ffe0ad97dA109E2E32538C8ebDE66eEa6",
                     "decimals": 18,
-                    "abiCoin": ""
+                    "abiCoin": "",
+                    "status": 1
                 }
             ],
             "contractTokensMultiTransfersData": [
@@ -282,7 +428,54 @@
                     "nameCoin": "TokensMultiTransfers",
                     "addressCoin": "0xA46c35aA5DF1B09d8CE32E60e883860c8440e5a0",
                     "decimals": 18,
-                    "abiCoin": ""
+                    "abiCoin": "",
+                    "status": 1
+                }
+            ],
+            "contractMultiLocksData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.24",
+                    "nameCoin": "MultiLocks",
+                    "addressCoin": "0x596D8cD43518CdEeD5d172efE06F50bc9Bc6C2b4",
+                    "decimals": 18,
+                    "abiCoin": "",
+                    "status": 0
+                }
+            ],
+            "contractLPToolsData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.24",
+                    "nameCoin": "LPTools",
+                    "addressCoin": "0x1B3e9534d6653545dCBBc5e86Ad6842c1bb9cCc1",
+                    "decimals": 18,
+                    "abiCoin": "",
+                    "status": 0
+                }
+            ],
+            "contractSwapArr": [
+                {
+                    "contractSwapRouter": {
+                        "linkSwap": "https://app.uniswap.org/explore/tokens/arbitrum/0x...",
+                        "nameCoin": "Uniswap V2",
+                        "addressCoin": "0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24",
+                        "decimals": 18,
+                        "WETH": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+                        "abiCoin": "",
+                    "status": 1
+                    }
+                },
+                {
+                    "contractSwapRouter": {
+                        "linkSwap": "https://www.sushi.com/swap?chainId=42161&token0=NATIVE&token1=0x...",
+                        "nameCoin": "SushiSwap V2",
+                        "addressCoin": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+                        "decimals": 18,
+                        "WETH": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+                        "abiCoin": "",
+                    "status": 1
+                    }
                 }
             ]
         },
@@ -305,7 +498,30 @@
                     "nameCoin": "MultiTokens",
                     "addressCoin": "0x0538031Ffe0ad97dA109E2E32538C8ebDE66eEa6",
                     "decimals": 18,
-                    "abiCoin": ""
+                    "abiCoin": "",
+                    "status": 1
+                }
+            ],
+            "contractTokensMultiTransfersData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.24",
+                    "nameCoin": "TokensMultiTransfers",
+                    "addressCoin": "0xFdd8Cd0f9f834C41708Bbabbdf04797DCfc76347",
+                    "decimals": 18,
+                    "abiCoin": "",
+                    "status": 0
+                }
+            ],
+            "contractMultiLocksData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.24",
+                    "nameCoin": "MultiLocks",
+                    "addressCoin": "0x596D8cD43518CdEeD5d172efE06F50bc9Bc6C2b4",
+                    "decimals": 18,
+                    "abiCoin": "",
+                    "status": 0
                 }
             ]
         },
@@ -328,7 +544,19 @@
                     "nameCoin": "MultiTokens",
                     "addressCoin": "0x0538031Ffe0ad97dA109E2E32538C8ebDE66eEa6",
                     "decimals": 18,
-                    "abiCoin": ""
+                    "abiCoin": "",
+                    "status": 1
+                }
+            ],
+            "contractTokensMultiTransfersData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.24",
+                    "nameCoin": "TokensMultiTransfers",
+                    "addressCoin": "0xA46c35aA5DF1B09d8CE32E60e883860c8440e5a0",
+                    "decimals": 18,
+                    "abiCoin": "",
+                    "status": 0
                 }
             ]
         },
