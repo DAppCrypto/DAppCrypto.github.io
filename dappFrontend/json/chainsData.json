@@ -510,7 +510,7 @@
                     "addressCoin": "0xFdd8Cd0f9f834C41708Bbabbdf04797DCfc76347",
                     "decimals": 18,
                     "abiCoin": "",
-                    "status": 0
+                    "status": 1
                 }
             ],
             "contractMultiLocksData": [
