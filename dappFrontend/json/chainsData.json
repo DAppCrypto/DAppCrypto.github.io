@@ -2,6 +2,120 @@
     "chainsData": [
         {
             "chainData": {
+                "chainName": "Binance Smart Chain Mainnet",
+                "chainName2": "BNB Smart Chain",
+                "chainId": 56,
+                "rpcUrl": "https:\/\/bsc-dataseed1.binance.org",
+                "BlockExplorerURL": "https:\/\/bscscan.com",
+                "symbol": "BNB",
+                "symbol2": "BNB",
+                "standardTokens": "bep20",
+                "status": 1
+            },
+            "contractMultiTokensData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.24",
+                    "nameCoin": "MultiTokens",
+                    "addressCoin": "0x3DE0f9370F5d3ce504b215eaD37CC4e4Dd2602fE",
+                    "decimals": 18,
+                    "abiCoin": "",
+                    "status": 1
+                },
+                {
+                    "version": 2,
+                    "compiler": "0.8.24",
+                    "nameCoin": "MultiTokens",
+                    "addressCoin": "0x0538031Ffe0ad97dA109E2E32538C8ebDE66eEa6",
+                    "decimals": 18,
+                    "abiCoin": "",
+                    "status": 1
+                }
+            ],
+            "contractTokensMultiTransfersData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.24",
+                    "nameCoin": "TokensMultiTransfers",
+                    "addressCoin": "0x1B3e9534d6653545dCBBc5e86Ad6842c1bb9cCc1",
+                    "decimals": 18,
+                    "abiCoin": "",
+                    "status": 1
+                }
+            ],
+            "contractLPToolsData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.24",
+                    "nameCoin": "LPTools",
+                    "addressCoin": "0xD5D3EEE8DBf63e10136A09233532abC1308E39d3",
+                    "decimals": 18,
+                    "abiCoin": "",
+                    "status": 0
+                }
+            ],
+            "contractSwapArr": [
+                {
+                    "contractSwapRouter": {
+                        "linkSwap": "https://pancakeswap.finance/swap?chain=bsc&outputCurrency=0x...",
+                        "nameCoin": "PancakeSwap v2",
+                        "addressCoin": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+                        "decimals": 18,
+                        "WETH": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+                        "abiCoin": "",
+                        "status": 1
+                    }
+                },
+                {
+                    "contractSwapRouter": {
+                        "linkSwap": "https://app.uniswap.org/explore/tokens/bnb/0x...",
+                        "nameCoin": "Uniswap V2",
+                        "addressCoin": "0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24",
+                        "decimals": 18,
+                        "WETH": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+                        "abiCoin": "",
+                        "status": 1
+                    }
+                },
+                {
+                    "contractSwapRouter": {
+                        "linkSwap": "https://www.sushi.com/swap?chainId=56&token0=NATIVE&token1=0x...",
+                        "nameCoin": "SushiSwap V2",
+                        "addressCoin": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+                        "decimals": 18,
+                        "WETH": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+                        "abiCoin": "",
+                        "status": 1
+                    }
+                }
+            ]
+        },
+        {
+            "chainData": {
+                "chainName": "Ethereum Mainnet",
+                "chainName2": "Ethereum",
+                "chainId": 1,
+                "rpcUrl": "https:\/\/ethereum-rpc.publicnode.com",
+                "BlockExplorerURL": "https:\/\/etherscan.io",
+                "symbol": "ETH",
+                "symbol2": "ETH",
+                "standardTokens": "erc20",
+                "status": 1
+            },
+            "contractMultiTokensData": [
+                {
+                    "version": 2,
+                    "compiler": "0.8.24",
+                    "nameCoin": "MultiTokens",
+                    "addressCoin": "0x0538031Ffe0ad97dA109E2E32538C8ebDE66eEa6",
+                    "decimals": 18,
+                    "abiCoin": "",
+                    "status": 1
+                }
+            ]
+        },
+        {
+            "chainData": {
                 "chainName": "BNB Smart Chain Test",
                 "chainName2": "BNB Smart Chain Test",
                 "chainId": 97,
@@ -73,120 +187,6 @@
                         "addressCoin": "0xD99D1c33F9fC3444f8101754aBC46c52416550D1",
                         "decimals": 18,
                         "WETH": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
-                        "abiCoin": "",
-                    "status": 1
-                    }
-                }
-            ]
-        },
-        {
-            "chainData": {
-                "chainName": "Ethereum Mainnet",
-                "chainName2": "Ethereum",
-                "chainId": 1,
-                "rpcUrl": "https:\/\/ethereum-rpc.publicnode.com",
-                "BlockExplorerURL": "https:\/\/etherscan.io",
-                "symbol": "ETH",
-                "symbol2": "ETH",
-                "standardTokens": "erc20",
-                "status": 0
-            },
-            "contractMultiTokensData": [
-                {
-                    "version": 2,
-                    "compiler": "0.8.24",
-                    "nameCoin": "MultiTokens",
-                    "addressCoin": "0x0538031Ffe0ad97dA109E2E32538C8ebDE66eEa6",
-                    "decimals": 18,
-                    "abiCoin": "",
-                    "status": 0
-                }
-            ]
-        },
-        {
-            "chainData": {
-                "chainName": "Binance Smart Chain Mainnet",
-                "chainName2": "BNB Smart Chain",
-                "chainId": 56,
-                "rpcUrl": "https:\/\/bsc-dataseed1.binance.org",
-                "BlockExplorerURL": "https:\/\/bscscan.com",
-                "symbol": "BNB",
-                "symbol2": "BNB",
-                "standardTokens": "bep20",
-                "status": 1
-            },
-            "contractMultiTokensData": [
-                {
-                    "version": 1,
-                    "compiler": "0.8.24",
-                    "nameCoin": "MultiTokens",
-                    "addressCoin": "0x3DE0f9370F5d3ce504b215eaD37CC4e4Dd2602fE",
-                    "decimals": 18,
-                    "abiCoin": "",
-                    "status": 1
-                },
-                {
-                    "version": 2,
-                    "compiler": "0.8.24",
-                    "nameCoin": "MultiTokens",
-                    "addressCoin": "0x0538031Ffe0ad97dA109E2E32538C8ebDE66eEa6",
-                    "decimals": 18,
-                    "abiCoin": "",
-                    "status": 1
-                }
-            ],
-            "contractTokensMultiTransfersData": [
-                {
-                    "version": 1,
-                    "compiler": "0.8.24",
-                    "nameCoin": "TokensMultiTransfers",
-                    "addressCoin": "0x1B3e9534d6653545dCBBc5e86Ad6842c1bb9cCc1",
-                    "decimals": 18,
-                    "abiCoin": "",
-                    "status": 1
-                }
-            ],
-            "contractLPToolsData": [
-                {
-                    "version": 1,
-                    "compiler": "0.8.24",
-                    "nameCoin": "LPTools",
-                    "addressCoin": "0xD5D3EEE8DBf63e10136A09233532abC1308E39d3",
-                    "decimals": 18,
-                    "abiCoin": "",
-                    "status": 0
-                }
-            ],
-            "contractSwapArr": [
-                {
-                    "contractSwapRouter": {
-                        "linkSwap": "https://pancakeswap.finance/swap?chain=bsc&outputCurrency=0x...",
-                        "nameCoin": "PancakeSwap v2",
-                        "addressCoin": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
-                        "decimals": 18,
-                        "WETH": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-                        "abiCoin": "",
-                    "status": 1
-                    }
-                },
-                {
-                    "contractSwapRouter": {
-                        "linkSwap": "https://app.uniswap.org/explore/tokens/bnb/0x...",
-                        "nameCoin": "Uniswap V2",
-                        "addressCoin": "0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24",
-                        "decimals": 18,
-                        "WETH": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
-                        "abiCoin": "",
-                    "status": 1
-                    }
-                },
-                {
-                    "contractSwapRouter": {
-                        "linkSwap": "https://www.sushi.com/swap?chainId=56&token0=NATIVE&token1=0x...",
-                        "nameCoin": "SushiSwap V2",
-                        "addressCoin": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
-                        "decimals": 18,
-                        "WETH": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
                         "abiCoin": "",
                     "status": 1
                     }
