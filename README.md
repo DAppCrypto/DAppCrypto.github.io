@@ -18,7 +18,7 @@
 | tBNB | + | + | + | + |
 | BNB | + | + | - | - |
 | Avalanche C-Chain | - | - | - | - |
-| Polygon | + | + | + | - |
+| Polygon | + | + | + | + |
 | Fantom | + | + | - | - |
 | Arbitrum | + | + | - | - |
 | Base | + | + | - | - |
@@ -41,6 +41,7 @@
 
 ### Versions
 
+- [v1.0.20](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.20) - allows you to lock tokens and liquidity on the Polygon Mainnet $MATIC.
 - [v1.0.19](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.19) - MultiTransfers supports bulk transfers of tokens and ETH to the BASE.
 - [v1.0.18](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.18) - support for creating new simple tokens with a promo page on the Ethereom $ETH.
 - [v1.0.17](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.17) - allows you to lock tokens and liquidity on the BNB Smart Chain Testnet $BNB.
