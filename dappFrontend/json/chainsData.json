@@ -165,7 +165,7 @@
                     "addressCoin": "0x596D8cD43518CdEeD5d172efE06F50bc9Bc6C2b4",
                     "decimals": 18,
                     "abiCoin": "",
-                    "status": 1
+                    "status": 0
                 }
             ],
             "contractLPToolsData": [
@@ -243,7 +243,7 @@
                     "addressCoin": "0x596D8cD43518CdEeD5d172efE06F50bc9Bc6C2b4",
                     "decimals": 18,
                     "abiCoin": "",
-                    "status": 1
+                    "status": 0
                 }
             ],
             "contractLPToolsData": [
