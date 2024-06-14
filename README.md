@@ -41,6 +41,7 @@
 
 ### Versions
 
+- [v1.0.21](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.21) - Added the ability to create and block the first liquidity in BNB Smart Chain Testnet $BNB.
 - [v1.0.20](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.20) - allows you to lock tokens and liquidity on the Polygon Mainnet $MATIC.
 - [v1.0.19](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.19) - MultiTransfers supports bulk transfers of tokens and ETH to the BASE.
 - [v1.0.18](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.18) - support for creating new simple tokens with a promo page on the Ethereom $ETH.
