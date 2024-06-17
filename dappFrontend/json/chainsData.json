@@ -282,10 +282,10 @@
                     "version": 1,
                     "compiler": "0.8.24",
                     "nameCoin": "MultiLocks",
-                    "addressCoin": "0x596D8cD43518CdEeD5d172efE06F50bc9Bc6C2b4",
+                    "addressCoin": "0x4BACbD98aB9A09a206cDF3864890643a5474e2d0",
                     "decimals": 18,
                     "abiCoin": "",
-                    "status": 0
+                    "status": 1
                 }
             ],
             "contractLPToolsData": [
@@ -293,10 +293,10 @@
                     "version": 1,
                     "compiler": "0.8.24",
                     "nameCoin": "LPTools",
-                    "addressCoin": "0x1B3e9534d6653545dCBBc5e86Ad6842c1bb9cCc1",
+                    "addressCoin": "0xe1a1050F46aF9Aa8ad4C49B01e5962094056D7eB",
                     "decimals": 18,
                     "abiCoin": "",
-                    "status": 0
+                    "status": 1
                 }
             ],
             "contractSwapArr": [
