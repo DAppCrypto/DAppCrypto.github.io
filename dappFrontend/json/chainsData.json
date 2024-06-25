@@ -662,6 +662,62 @@
         },
         {
             "chainData": {
+                "chainName": "Blast",
+                "chainName2": "Blast",
+                "chainId": 81457,
+                "rpcUrl": "https:\/\/rpc.blast.io",
+                "BlockExplorerURL": "https:\/\/blastscan.io",
+                "symbol": "ETH",
+                "symbol2": "BLAST",
+                "standardTokens": "",
+                "status": 1
+            },
+            "contractMultiTokensData": [
+                {
+                    "version": 2,
+                    "compiler": "0.8.24",
+                    "nameCoin": "MultiTokens",
+                    "addressCoin": "0x0538031Ffe0ad97dA109E2E32538C8ebDE66eEa6",
+                    "decimals": 18,
+                    "abiCoin": "",
+                    "status": 1
+                }
+            ],
+            "contractTokensMultiTransfersData": [
+                {
+                    "version": 1,
+                    "compiler": "0.8.24",
+                    "nameCoin": "TokensMultiTransfers",
+                    "addressCoin": "0x3DE0f9370F5d3ce504b215eaD37CC4e4Dd2602fE",
+                    "decimals": 18,
+                    "abiCoin": "",
+                    "status": 0
+                }
+            ],
+            "topTokens": [
+                {
+                    "nameCoin": "WETH",
+                    "addressCoin": "0x4300000000000000000000000000000000000004",
+                    "decimals": 18,
+                    "coinParent": "WETH"
+                }
+            ]
+        },
+        {
+            "chainData": {
+                "chainName": "zkSync Mainnet",
+                "chainName2": "zkSync",
+                "chainId": 324,
+                "rpcUrl": "https:\/\/mainnet.era.zksync.io",
+                "BlockExplorerURL": "https:\/\/explorer.zksync.io",
+                "symbol": "ETH",
+                "symbol2": "ZK",
+                "standardTokens": "",
+                "status": 0
+            }
+        },
+        {
+            "chainData": {
                 "chainName": "Mantle",
                 "chainName2": "Mantle",
                 "chainId": 5000,

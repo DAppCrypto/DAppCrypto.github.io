@@ -23,6 +23,7 @@
 | Arbitrum | + | + | - | - |
 | Base | + | + | - | - |
 | Optimism | + | - | - | - |
+| Blast | + | - | - | - |
 
 
 #### Create LP table
@@ -41,6 +42,7 @@
 
 ### Versions
 
+- [v1.0.23](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.23) - support for creating new simple tokens with a promo page on the Blast $BLAST.
 - [v1.0.22](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.22) - Added the ability to create and lock the first liquidity in Polygon Mainnet $MATIC.
 - [v1.0.21](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.21) - Added the ability to create and lock the first liquidity in BNB Smart Chain Testnet $BNB.
 - [v1.0.20](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.20) - allows you to lock tokens and liquidity on the Polygon Mainnet $MATIC.
