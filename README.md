@@ -16,7 +16,7 @@
 | :-----: | :-----: | :-----: | :-----: | :-----: |
 | ETH | + | - | - | - |
 | tBNB | + | + | + | + |
-| BNB | + | + | - | + |
+| BNB | + | + | + | + |
 | Avalanche C-Chain | - | - | - | - |
 | Polygon | + | + | + | + |
 | Fantom | + | + | - | - |
@@ -32,7 +32,7 @@
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
 | ETH | - | - | - | - | - |
 | tBNB | - | + | - | - | - |
-| BNB | - | - | - | - | - |
+| BNB | + | + | + | - | - |
 | Avalanche C-Chain | - | - | - | - | - |
 | Polygon | + | - | + | - | + |
 | Fantom | - | - | - | - | - |
@@ -42,6 +42,7 @@
 
 ### Versions
 
+- [v1.0.26](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.26) - Added the ability to create and lock the first liquidity in BNB Smart Chain $BNB.
 - [v1.0.25](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.25) - allows you to lock tokens and liquidity on the BNB Smart Chain $BNB.
 - [v1.0.24](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.24) - MultiTransfers supports bulk transfers of tokens and ETH in Optimism and Blast.
 - [v1.0.23](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.23) - support for creating new simple tokens with a promo page on the Blast $BLAST.
