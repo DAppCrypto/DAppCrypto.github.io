@@ -71,8 +71,17 @@
 - [v1.0.0](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.0) - allows you to create simple tokens in the BNB Smart Chain Testnet.
 
 You can speed up chains support by donation:
+- ETH
 ```
 0x94F6633f19b159Ad08284abBEa4a3BfCf1aC8443
+```
+- SOL
+```
+rMiksd9fcRsSfLo8qmnNSh73CMgcbs1nPtvApYVkR3D
+```
+- TON
+```
+UQAjhLhfjpao-QP0PMg1mC4lNCRmt9_sNk62hCSG3qzTrBsO
 ```
 
 
