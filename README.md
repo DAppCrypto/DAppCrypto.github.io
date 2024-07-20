@@ -12,18 +12,18 @@
 
 #### DAppCrypto table
 
-| # | Create Tokens | Multi Transfers | Create LP | Lock |
-| :-----: | :-----: | :-----: | :-----: | :-----: |
-| ETH | + | - | - | - |
-| tBNB | + | + | + | + |
-| BNB | + | + | + | + |
-| Avalanche C-Chain | - | - | - | - |
-| Polygon | + | + | + | + |
-| Fantom | + | + | - | - |
-| Arbitrum | + | + | - | - |
-| Base | + | + | - | - |
-| Optimism | + | + | - | - |
-| Blast | + | + | - | - |
+| # | Create Tokens | Multi Transfers | Create LP | Lock | Swap |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| ETH | + | - | - | - | - |
+| tBNB | + | + | + | + | + |
+| BNB | + | + | + | + | + |
+| Avalanche C-Chain | - | - | - | - | - |
+| Polygon | + | + | + | + | + |
+| Fantom | + | + | - | - | - |
+| Arbitrum | + | + | - | - | - |
+| Base | + | + | - | - | - |
+| Optimism | + | + | - | - | - |
+| Blast | + | + | - | - | - |
 
 
 #### Create LP table
@@ -42,6 +42,7 @@
 
 ### Versions
 
+- [v1.0.27](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.27) - Search for liquidity pair and Swap tokens in BNB Smart Chain $BNB, Polygon Mainnet $MATIC. Experimental.
 - [v1.0.26](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.26) - Added the ability to create and lock the first liquidity in BNB Smart Chain $BNB.
 - [v1.0.25](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.25) - allows you to lock tokens and liquidity on the BNB Smart Chain $BNB.
 - [v1.0.24](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.24) - MultiTransfers supports bulk transfers of tokens and ETH in Optimism and Blast.

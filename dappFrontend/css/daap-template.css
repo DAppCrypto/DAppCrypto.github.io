@@ -404,6 +404,25 @@ h2 {
     text-decoration: underline;
 }
 
+/* page Pairs */
+
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentPairDetailsBlock] .contentBlock {
+    max-width: 600px;
+}
+
+.swapRevers {
+    background-image: url(../imgs/icons/reversed.png);
+    background-size: 100%;
+    width: 30px;
+    height: 30px;
+    display: block;
+    font-size: 0px;
+    opacity: 0.8;
+}
+.swapRevers:hover {
+    opacity: 1;
+}
+
 /* page Locks */
 
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentLockTokensBlock] .contentBlock {
@@ -678,10 +697,8 @@ h2 {
 .cardsBlock .cardBlock ul li {
 
 }
-.cardsBlock .cardBlock .cardBlockButton {
 
-}
-.cardsBlock .cardBlock a {
+.cardsBlock .cardBlock .cardBlockButton {
     display: block;
     height: 48px;
     background: #4c8fdf;
