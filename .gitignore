@@ -1,5 +1,6 @@
 .idea
 dev.html
+dappFrontend/json/chainsData.json
 dappFrontend/json/chainsDataTest.json
 dappFrontend/txt/chainsTest.txt
 dappFrontend/jsdev
