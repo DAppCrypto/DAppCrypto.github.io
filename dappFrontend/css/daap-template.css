@@ -293,9 +293,15 @@ h2 {
     line-height: 42px;
 }
 
+/* display */
 .dt { display: table; }
 .db { display: block; }
 .dn { display: none; }
+
+/* display */
+.w100 { width: 100%; }
+.w50 { width: 50%; }
+.w25 { width: 25%; }
 
 /* ml */
 .ml05 { margin-left: 5px; }
@@ -630,7 +636,7 @@ h2 {
 
 /* CreateStaking */
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentStakingTokensBlock] .contentBlock {
-    max-width: 400px;
+    max-width: 600px;
 }
 
 /* CreateStaking */

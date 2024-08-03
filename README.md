@@ -43,6 +43,7 @@
 
 ### Versions
 
+- [v1.0.29](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.29) - Added staking in BNB Smart Chain Testnet $BNB. Experimental.
 - [v1.0.28](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.28) - support for creating new simple tokens with a promo page on the Polygon zkEVM $POL.
 - [v1.0.27](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.27) - Search for liquidity pair and Swap tokens with 0% slippage in BNB Smart Chain $BNB, Polygon Mainnet $MATIC. Experimental.
 - [v1.0.26](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.26) - Added the ability to create and lock the first liquidity in BNB Smart Chain $BNB.
