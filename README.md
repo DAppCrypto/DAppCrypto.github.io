@@ -12,19 +12,19 @@
 
 #### DAppCrypto table
 
-| # | Create Tokens | Multi Transfers | Create LP | Lock | Swap |
-| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-| ETH | + | - | - | - | - |
-| tBNB | + | + | + | + | + |
-| BNB | + | + | + | + | + |
-| Avalanche C-Chain | - | - | - | - | - |
-| Polygon | + | + | + | + | + |
-| Fantom | + | + | - | - | - |
-| Arbitrum | + | + | - | - | - |
-| Base | + | + | - | - | - |
-| Optimism | + | + | - | - | - |
-| Blast | + | + | - | - | - |
-| Polygon zkEVM | + | - | - | - | - |
+| # | Create Tokens | Multi Transfers | Create LP | Lock | Swap | Staking |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| ETH | + | - | - | - | - | - |
+| tBNB | + | + | + | + | + | + |
+| BNB | + | + | + | + | + | - |
+| Avalanche C-Chain | - | - | - | - | - | - |
+| Polygon | + | + | + | + | + | - |
+| Fantom | + | + | - | - | - | - |
+| Arbitrum | + | + | - | - | - | - |
+| Base | + | + | - | - | - | - |
+| Optimism | + | + | - | - | - | - |
+| Blast | + | + | - | - | - | - |
+| Polygon zkEVM | + | - | - | - | - | - |
 
 
 #### Create LP table
@@ -43,6 +43,7 @@
 
 ### Versions
 
+- [v1.0.30](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.30) - Locks interface update. Added inscriptions of functions and parameters for claim.
 - [v1.0.29](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.29) - Added staking in BNB Smart Chain Testnet $BNB. Experimental.
 - [v1.0.28](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.28) - support for creating new simple tokens with a promo page on the Polygon zkEVM $POL.
 - [v1.0.27](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.27) - Search for liquidity pair and Swap tokens with 0% slippage in BNB Smart Chain $BNB, Polygon Mainnet $MATIC. Experimental.
