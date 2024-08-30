@@ -16,9 +16,9 @@
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
 | ETH | + | - | - | - | - | - |
 | tBNB | + | + | + | + | + | + |
-| BNB | + | + | + | + | + | - |
+| BNB | + | + | + | + | + | + |
 | Avalanche C-Chain | - | - | - | - | - | - |
-| Polygon | + | + | + | + | + | - |
+| Polygon | + | + | + | + | + | + |
 | Fantom | + | + | - | - | - | - |
 | Arbitrum | + | + | - | - | - | - |
 | Base | + | + | - | - | - | - |
@@ -43,6 +43,7 @@
 
 ### Versions
 
+- [v1.0.32](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.32) - Added staking in BNB Smart Chain $BNB and Polygon Mainnet $MATIC. Experimental.
 - [v1.0.31](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.31) - Removing liquidity on the SWAP page.
 - [v1.0.30](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.30) - Locks interface update. Added inscriptions of functions and parameters for claim.
 - [v1.0.29](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.29) - Added staking in BNB Smart Chain Testnet $BNB. Experimental.
