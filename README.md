@@ -43,6 +43,7 @@
 
 ### Versions
 
+- [v1.0.33](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.33) - Added a link to the token details page. Token info and logo Update in blockchain explorer.
 - [v1.0.32](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.32) - Added staking in BNB Smart Chain $BNB and Polygon Mainnet $MATIC. Experimental.
 - [v1.0.31](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.31) - Removing liquidity on the SWAP page.
 - [v1.0.30](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.30) - Locks interface update. Added inscriptions of functions and parameters for claim.
