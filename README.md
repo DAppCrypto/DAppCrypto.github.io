@@ -12,19 +12,19 @@
 
 #### DAppCrypto table
 
-| # | Create Tokens | Multi Transfers | Create LP | Lock | Swap | Staking |
-| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-| ETH | + | - | - | - | - | - |
-| tBNB | + | + | + | + | + | + |
-| BNB | + | + | + | + | + | + |
-| Avalanche C-Chain | - | - | - | - | - | - |
-| Polygon | + | + | + | + | + | + |
-| Fantom | + | + | - | - | - | - |
-| Arbitrum | + | + | - | - | - | - |
-| Base | + | + | - | - | - | - |
-| Optimism | + | + | - | - | - | - |
-| Blast | + | + | - | - | - | - |
-| Polygon zkEVM | + | - | - | - | - | - |
+| # | Create Tokens | Multi Transfers | Create LP | Lock | Swap | Staking | Launchpads |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| ETH | + | - | - | - | - | - | - |
+| tBNB | + | + | + | + | + | + | + |
+| BNB | + | + | + | + | + | + | - |
+| Avalanche C-Chain | - | - | - | - | - | - | - |
+| Polygon | + | + | + | + | + | + | - |
+| Fantom | + | + | - | - | - | - | - |
+| Arbitrum | + | + | - | - | - | - | - |
+| Base | + | + | - | - | - | - | - |
+| Optimism | + | + | - | - | - | - | - |
+| Blast | + | + | - | - | - | - | - |
+| Polygon zkEVM | + | - | - | - | - | - | - |
 
 
 #### Create LP table
@@ -43,6 +43,7 @@
 
 ### Versions
 
+- [v1.0.34](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.34) - Added Launchpad to BNB Smart Chain Testnet. Experimental.
 - [v1.0.33](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.33) - Added a link to the token details page. Token info and logo Update in blockchain explorer.
 - [v1.0.32](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.32) - Added staking in BNB Smart Chain $BNB and Polygon Mainnet $MATIC. Experimental.
 - [v1.0.31](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.31) - Removing liquidity on the SWAP page.
