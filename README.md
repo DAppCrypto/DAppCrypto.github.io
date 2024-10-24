@@ -43,6 +43,7 @@
 
 ### Versions
 
+- [v1.0.35](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.35) - MultiTokens. New feature added. Any holder can burn their tokens. Chain: BNB Smart Chain Testnet.
 - [v1.0.34](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.34) - Added Launchpad to BNB Smart Chain Testnet. Experimental.
 - [v1.0.33](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.33) - Added a link to the token details page. Token info and logo Update in blockchain explorer.
 - [v1.0.32](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.32) - Added staking in BNB Smart Chain $BNB and Polygon Mainnet $MATIC. Experimental.
