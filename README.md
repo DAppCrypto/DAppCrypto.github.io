@@ -12,19 +12,19 @@
 
 #### DAppCrypto table
 
-| # | Create Tokens | Multi Transfers | Create LP | Lock | Swap | Staking | Launchpads |
+| # | Create Tokens, TaxToken | Multi Transfers | Create LP | Lock | Swap | Staking | Launchpads |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-| ETH | + | - | - | - | - | - | - |
-| tBNB | + | + | + | + | + | + | + |
-| BNB | + | + | + | + | + | + | - |
+| ETH | +,- | - | - | - | - | - | - |
+| tBNB | +,+ | + | + | + | + | + | + |
+| BNB | +,- | + | + | + | + | + | - |
 | Avalanche C-Chain | - | - | - | - | - | - | - |
-| Polygon | + | + | + | + | + | + | - |
-| Fantom | + | + | - | - | - | - | - |
-| Arbitrum | + | + | - | - | - | - | - |
-| Base | + | + | - | - | - | - | - |
-| Optimism | + | + | - | - | - | - | - |
-| Blast | + | + | - | - | - | - | - |
-| Polygon zkEVM | + | - | - | - | - | - | - |
+| Polygon | +,- | + | + | + | + | + | - |
+| Fantom | +,- | + | - | - | - | - | - |
+| Arbitrum | +,- | + | - | - | - | - | - |
+| Base | +,- | + | - | - | - | - | - |
+| Optimism | +,- | + | - | - | - | - | - |
+| Blast | +,- | + | - | - | - | - | - |
+| Polygon zkEVM | +,- | - | - | - | - | - | - |
 
 
 #### Create LP table
@@ -43,6 +43,7 @@
 
 ### Versions
 
+- [v1.0.36](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.36) - MultiTokens. Support for tokens with taxes. Chain: BNB Smart Chain Testnet.
 - [v1.0.35](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.35) - MultiTokens. New feature added. Any holder can burn their tokens. Chain: BNB Smart Chain Testnet.
 - [v1.0.34](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.34) - Added Launchpad to BNB Smart Chain Testnet. Experimental.
 - [v1.0.33](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.33) - Added a link to the token details page. Token info and logo Update in blockchain explorer.
