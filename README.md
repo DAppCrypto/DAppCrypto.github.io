@@ -20,7 +20,7 @@
 | Avalanche C-Chain | - | - | - | - | - | - | - |
 | Polygon | +,- | + | + | + | + | + | - |
 | Fantom | +,- | + | - | - | - | - | - |
-| Arbitrum | +,- | + | - | - | - | - | - |
+| Arbitrum | +,- | + | - | - | - | + | - |
 | Base | +,- | + | - | - | - | - | - |
 | Optimism | +,- | + | - | - | - | - | - |
 | Blast | +,- | + | - | - | - | - | - |
@@ -43,6 +43,7 @@
 
 ### Versions
 
+- [v1.0.37](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.37) - Support for staking in the Arbitrum chain. Experimental.
 - [v1.0.36](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.36) - MultiTokens. Support for tokens with taxes. Chain: BNB Smart Chain Testnet.
 - [v1.0.35](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.35) - MultiTokens. New feature added. Any holder can burn their tokens. Chain: BNB Smart Chain Testnet.
 - [v1.0.34](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.34) - Added Launchpad to BNB Smart Chain Testnet. Experimental.
