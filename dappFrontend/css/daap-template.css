@@ -410,6 +410,12 @@ h2 {
     text-decoration: underline;
 }
 
+/* page Swap ST */
+
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentSwapSTBlock] .contentBlock {
+    max-width: 600px;
+}
+
 /* page Pairs */
 
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentPairDetailsBlock] .contentBlock {
