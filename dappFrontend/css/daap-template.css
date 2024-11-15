@@ -335,6 +335,9 @@ h2 {
 .mb4 { margin-bottom: 30px; }
 .mb5 { margin-bottom: 30px; }
 
+/* margin */
+.ma { margin: 0 auto; }
+
 /* tc */
 .tc { text-align: center; }
 .tl { text-align: left; }
@@ -400,6 +403,20 @@ h2 {
     height: 25px;
 }
 
+/* ShareWidgetBlock */
+.ShareWidgetBlock {
+
+}
+.ShareWidgetBlock ul li {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.ShareWidgetBlock img {
+    width: 25px;
+    height: 25px;
+}
+
 /* contentBlock app pages */
 
 .contentBlock a {
@@ -450,6 +467,12 @@ h2 {
 /* page CreateToken */
 
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentTokenTokensBlock] .contentBlock {
+    max-width: 600px;
+}
+
+/* page Partner */
+
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentPartnerBlock] .contentBlock {
     max-width: 600px;
 }
 
@@ -852,7 +875,7 @@ h2 {
 
 /* Copy Content */
 
-.dAppCopyContent {
+.copyIcon {
     background-image: url(../imgs/icons/copy.png);
     background-size: 100%;
     width: 16px;
@@ -861,6 +884,18 @@ h2 {
     font-size: 0px;
     opacity: 0.5;
 }
-.dAppCopyContent:hover {
+.copyIcon:hover {
+    opacity: 1;
+}
+
+/* PartnerWidgetBlock */
+
+.ShareImg {
+    background-image: url(../imgs/icons/link.png);
+    width: 22px;
+    height: 22px;
+    opacity: 0.9;
+}
+.ShareImg:hover {
     opacity: 1;
 }
