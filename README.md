@@ -14,17 +14,17 @@
 
 | # | Create Tokens, Tax, Stable | Multi Transfers | Create LP | Lock | Swap | Staking | Launchpads |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-| ETH | +,- | - | - | - | - | - | - |
+| ETH | +,-,- | - | - | - | - | - | - |
 | tBNB | +,+,+ | + | + | + | + | + | + |
-| BNB | +,- | + | + | + | + | + | - |
+| BNB | +,+,+ | + | + | + | + | + | - |
 | Avalanche C-Chain | - | - | - | - | - | - | - |
-| Polygon | +,- | + | + | + | + | + | - |
-| Fantom | +,- | + | - | - | - | - | - |
-| Arbitrum | +,- | + | - | - | - | + | - |
-| Base | +,- | + | - | - | - | - | - |
-| Optimism | +,- | + | - | - | - | - | - |
-| Blast | +,- | + | - | - | - | - | - |
-| Polygon zkEVM | +,- | - | - | - | - | - | - |
+| Polygon | +,+,+ | + | + | + | + | + | - |
+| Fantom | +,-,- | + | - | - | - | - | - |
+| Arbitrum | +,+,+ | + | - | - | - | + | - |
+| Base | +,+,+ | + | - | - | - | - | - |
+| Optimism | +,+,+ | + | - | - | - | - | - |
+| Blast | +,-,- | + | - | - | - | - | - |
+| Polygon zkEVM | +,-,- | - | - | - | - | - | - |
 
 
 #### Create LP table
@@ -43,6 +43,7 @@
 
 ### Versions
 
+- [v1.0.40](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.40) - MultiTokens. Support for Simple, Tax, Stable Tokens. Partners.
 - [v1.0.39](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.39) - MultiTokens. Support for Stable Tokens with taxes. Chain: BNB Smart Chain Testnet.
 - [v1.0.38](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.38) - Swap. Slippage support.
 - [v1.0.37](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.37) - Support for staking in the Arbitrum chain. Experimental.
