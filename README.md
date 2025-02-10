@@ -14,7 +14,7 @@
 
 | # | Create Tokens, Tax, Stable | Multi Transfers | Create LP | Lock | Swap | Staking | Launchpads |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-| ETH | +,-,- | - | - | - | - | - | - |
+| ETH | +,-,- | + | - | - | - | - | - |
 | tBNB | +,+,+ | + | + | + | + | + | + |
 | BNB | +,+,+ | + | + | + | + | + | - |
 | Avalanche C-Chain | - | - | - | - | - | - | - |
@@ -43,6 +43,7 @@
 
 ### Versions
 
+- [v1.0.41](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.41) - MultiTransfers supports bulk transfers of tokens and ETH to the Ethereum Mainnet.
 - [v1.0.40](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.40) - MultiTokens. Support for Simple, Tax, Stable Tokens. Partners.
 - [v1.0.39](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.39) - MultiTokens. Support for Stable Tokens with taxes. Chain: BNB Smart Chain Testnet.
 - [v1.0.38](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.38) - Swap. Slippage support.
