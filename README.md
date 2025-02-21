@@ -14,7 +14,7 @@
 
 | # | Create Tokens, Tax, Stable | Multi Transfers | Create LP | Lock | Swap | Staking | Launchpads |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-| ETH | +,+,+ | + | - | - | - | - | - |
+| ETH | +,+,+ | + | + | - | - | - | - |
 | tBNB | +,+,+ | + | + | + | + | + | + |
 | BNB | +,+,+ | + | + | + | + | + | - |
 | Avalanche C-Chain | - | - | - | - | - | - | - |
@@ -43,6 +43,7 @@
 
 ### Versions
 
+- [v1.0.43](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.43) - Liquidity. Creating a Liquidity Pool and Locking on the Ethereum Mainnet.
 - [v1.0.42](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.42) - MultiTokens. Easily create Simple, Tax, Stable Tokens on the Ethereum Mainnet.
 - [v1.0.41](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.41) - MultiTransfers supports bulk transfers of tokens and ETH to the Ethereum Mainnet.
 - [v1.0.40](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.40) - MultiTokens. Support for Simple, Tax, Stable Tokens. Partners.
