@@ -43,6 +43,7 @@
 
 ### Versions
 
+- [v1.0.45](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.45) - Added pagination in the tokens section.
 - [v1.0.44](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.44) - DAppCrypto. Ethereum Mainnet set as default chain.
 - [v1.0.43](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.43) - Liquidity. Creating a Liquidity Pool and Locking on the Ethereum Mainnet.
 - [v1.0.42](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.42) - MultiTokens. Easily create Simple, Tax, Stable Tokens on the Ethereum Mainnet.

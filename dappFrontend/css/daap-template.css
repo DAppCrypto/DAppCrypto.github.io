@@ -691,7 +691,7 @@ h2 {
 }
 
 .cardsBlock {
-
+    clear: both;
 }
 
 .cardsBlock .cardBlock {
@@ -788,6 +788,37 @@ h2 {
         float: left;
         padding-bottom: 5px;
     }
+}
+
+/* PagesBlock */
+.PagesBlock {
+    clear: both;
+}
+.PagesBlock ul {
+
+}
+.PagesBlock ul li {
+    float: left;
+    margin-left: 5px;
+}
+.PagesBlock ul li a {
+    display: block;
+    background: #4c8fdf;
+    margin: 10px 2%;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3px 5px;
+}
+.PagesBlock ul li a:hover {
+    text-decoration: none;
+    opacity: 0.9;
+}
+.PagesBlock ul li.activePage a {
+    background: #000000;
 }
 
 /* data-layout="widget" */
