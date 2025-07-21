@@ -498,6 +498,16 @@ h2 {
     max-width: 600px;
 }
 
+/* page CreateAirdrop */
+
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentAirdropTokensBlock] .contentBlock {
+    max-width: 600px;
+}
+
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentAirdropDetailsBlock] .contentBlock {
+    max-width: 600px;
+}
+
 
 /* page MultiTransfers */
 
