@@ -929,6 +929,21 @@ h2 {
     opacity: 1;
 }
 
+/* Add Token */
+
+.walletIcon {
+    background-image: url(../imgs/icons/add.png);
+    background-size: 100%;
+    width: 16px;
+    height: 16px;
+    display: block;
+    font-size: 0px;
+    opacity: 0.9;
+}
+.walletIcon:hover {
+    opacity: 1;
+}
+
 /* PartnerWidgetBlock */
 
 .ShareImg {

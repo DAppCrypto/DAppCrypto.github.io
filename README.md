@@ -12,19 +12,19 @@
 
 #### DAppCrypto table
 
-| # | Create Tokens, Tax, Stable | Multi Transfers | Create LP | Lock | Swap | Staking | Launchpads |
-| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-| ETH | +,+,+ | + | + | - | - | - | - |
-| tBNB | +,+,+ | + | + | + | + | + | + |
-| BNB | +,+,+ | + | + | + | + | + | - |
-| Avalanche C-Chain | - | - | - | - | - | - | - |
-| Polygon | +,+,+ | + | + | + | + | + | - |
-| Fantom | +,-,- | + | - | - | - | - | - |
-| Arbitrum | +,+,+ | + | - | - | - | + | - |
-| Base | +,+,+ | + | - | - | - | - | - |
-| Optimism | +,+,+ | + | - | - | - | - | - |
-| Blast | +,-,- | + | - | - | - | - | - |
-| Polygon zkEVM | +,-,- | - | - | - | - | - | - |
+| # | Create Tokens, Tax, Stable | Multi Transfers | Create LP | Lock | Swap | Staking | Airdrop | TokenSale |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| ETH | +,+,+ | + | + | - | - | - | + | + |
+| tBNB | +,+,+ | + | + | + | + | + | + | + |
+| BNB | +,+,+ | + | + | + | + | + | + | + |
+| Avalanche C-Chain | - | - | - | - | - | - | - | - |
+| Polygon | +,+,+ | + | + | + | + | + | - | - |
+| Fantom | +,-,- | + | - | - | - | - | - | - |
+| Arbitrum | +,+,+ | + | - | - | - | + | - | - |
+| Base | +,+,+ | + | - | - | - | - | - | - |
+| Optimism | +,+,+ | + | - | - | - | - | - | - |
+| Blast | +,-,- | + | - | - | - | - | - | - |
+| Polygon zkEVM | +,-,- | - | - | - | - | - | - | - |
 
 
 #### Create LP table
@@ -43,6 +43,7 @@
 
 ### Versions
 
+- [v1.0.48](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.48) - Web3 Airdrop. Public Sale update. Tokenomics output for HardCap and SoftCap.
 - [v1.0.47](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.47) - Public Sale. Experimental.
 - [v1.0.46](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.46) - Migration to ethers.js.
 - [v1.0.45](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.45) - Added pagination in the tokens section.
