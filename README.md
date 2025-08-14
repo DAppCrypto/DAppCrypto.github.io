@@ -43,6 +43,7 @@
 
 ### Versions
 
+- [v1.0.50](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.50) - How Much to Pump? Output table for pump on token sale page and add liquidity.
 - [v1.0.49](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.49) - Added Web3 Airdrop and Tokens Sale in Polygon Mainnet $POL.
 - [v1.0.48](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.48) - Web3 Airdrop. Public Sale update. Tokenomics output for HardCap and SoftCap.
 - [v1.0.47](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.47) - Public Sale. Experimental.
