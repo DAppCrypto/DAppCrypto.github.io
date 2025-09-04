@@ -433,6 +433,16 @@ h2 {
     max-width: 600px;
 }
 
+/* page Trading Bot */
+
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentTradingBotBlock] .contentBlock {
+    max-width: 600px;
+}
+
+.dappBodyBlock .contentBlock .daap-simple-form textarea[name=TradingBotSeedPhrase] {
+    min-height: 40px;
+}
+
 /* page Pairs */
 
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentPairDetailsBlock] .contentBlock {
