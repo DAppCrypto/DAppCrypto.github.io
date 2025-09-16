@@ -729,7 +729,7 @@ h2 {
 }
 .cardsBlock .cardBlock .cardBlockTitle1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
     color: #f55;
     margin-bottom: 10px;
@@ -964,4 +964,9 @@ h2 {
 }
 .ShareImg:hover {
     opacity: 1;
+}
+
+/* PartnerWidgetBlock */
+.CountdownTimer {
+
 }
