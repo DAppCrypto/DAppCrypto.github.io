@@ -433,6 +433,180 @@ h2 {
     max-width: 600px;
 }
 
+/* page CPay */
+
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayReceiptBlock] .contentBlock {
+    max-width: 600px;
+}
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentCreateCPayPoolBlock] .contentBlock {
+    max-width: 600px;
+}
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayInvoiceGeneratorBlock] .contentBlock {
+    max-width: 600px;
+}
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayDetailsBlock] .contentBlock {
+    max-width: 600px;
+}
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayInvoiceBlock] .contentBlock {
+    max-width: 600px;
+}
+
+.RadioPayTokensBlock {
+
+}
+
+/* Stars */
+.StarsHtmlBlock .StarsHtml:before {
+    margin: 0px;
+    font-size: 16px;
+    font-family: FontAwesome;
+    content: "\f005";
+    display: inline-block;
+}
+.StarsHtmlBlock .StarsHtml {
+    color: #90A0A3;
+}
+.StarsHtmlBlock .StarsHtml.StarsHtmlActive {
+    color: #FECE31;
+}
+
+/* QR */
+.QRcode img {
+    margin: 0 auto;
+}
+
+/* Rating Block */
+.ratingBlock  {
+    border: none;
+    float: left;
+}
+
+.ratingBlock  > label {
+    color: #90A0A3;
+    float: right;
+}
+
+.ratingBlock  > label:before {
+    margin: 5px;
+    font-size: 2em;
+    font-family: FontAwesome;
+    content: "\f005";
+    display: inline-block;
+}
+
+.ratingBlock  > input {
+    display: none !important;
+}
+
+.ratingBlock  > input:checked ~ label,
+.ratingBlock :not(:checked) > label:hover,
+.ratingBlock :not(:checked) > label:hover ~ label {
+    color: #F79426;
+}
+
+.ratingBlock  > input:checked + label:hover,
+.ratingBlock  > input:checked ~ label:hover,
+.ratingBlock  > label:hover ~ input:checked ~ label,
+.ratingBlock  > input:checked ~ label:hover ~ label {
+    color: #FECE31;
+}
+
+/* Pay Block */
+
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayInvoiceBlock] .RadioPayTokensBlock .addressSenderToken {
+    width: 139px !important;
+    width: 160px !important;
+    margin-bottom: 5px !important;
+    margin-right: 5px !important;
+    float: left !important;
+    text-align: center !important;
+    position: relative !important;
+    cursor: pointer;
+}
+
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayInvoiceBlock] .RadioPayTokensBlock .addressSenderToken.addressSenderTokenActive {
+    background: #8fe91729 !important;
+}
+
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayInvoiceBlock] .RadioPayTokensBlock .addressSenderToken input {
+    display: none;
+}
+
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayInvoiceBlock] .RadioPayTokensBlock .addressSenderToken .SenderTokenText {
+    display: block;
+    font-size: 13px !important;
+    text-align: center !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayInvoiceBlock] .RadioPayTokensBlock .addressSenderToken .SenderTokenText .SenderTokenTextName {
+    display: block;
+    font-weight: bold !important;
+    margin-bottom: 5px;
+}
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayInvoiceBlock] .RadioPayTokensBlock .addressSenderToken .SenderTokenText .SenderTokenTextAddress {
+    font-size: 13px;
+    max-width: 121px;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayInvoiceBlock] .RadioPayTokensBlock .addressSenderToken img {
+    width: 144px;
+    height: 144px;
+    margin-top: 5px;
+    opacity: 0.9 !important;
+}
+
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayInvoiceBlock] .RadioPayTokensBlock .addressSenderToken.addressSenderTokenActive img {
+    opacity: 1 !important;
+}
+
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayInvoiceBlock] .RadioPayTokensBlock .addressSenderToken .recommendedToken {
+    position: absolute !important;
+    background: #464bdd !important;
+    color: #ffffff !important;
+    padding: 3px 5px !important;
+    top: 125px !important;
+    left: 5px !important;
+    border-radius: 7px !important;
+    z-index: 2 !important;
+    text-transform: uppercase !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    transform: rotate(-32deg) !important;
+}
+
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayInvoiceBlock] .RadioPayTokensBlock .addressSenderToken .noticeTextToken span {
+    display: table;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: #000000 !important;
+    color: #ffffff !important;
+    padding: 4px 8px !important;
+    top: 0px !important;
+    left: 5px !important;
+    border-radius: 7px !important;
+    z-index: 2 !important;
+    text-transform: uppercase !important;
+    font-size: 13px !important;
+    font-weight: bold !important;
+}
+
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayInvoiceBlock] .RadioPayTokensBlock .addressSenderToken .noticeTextToken span.noticeBalanceLow {
+    background: #dd4646 !important;
+}
+
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayInvoiceBlock] .RadioPayTokensBlock .addressSenderToken .noticeTextToken span.noticeBalanceOK {
+    background: #26a17b !important;
+}
+
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayInvoiceBlock] .addressSenderToken:checked + label {
+    color: red !important;
+}
+
 /* page Trading Bot */
 
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentTradingBotBlock] .contentBlock {

@@ -12,19 +12,19 @@
 
 #### DAppCrypto table
 
-| # | Create Tokens, Tax, Stable | Multi Transfers | Create LP | Lock | Swap | Staking | Airdrop | TokenSale | Trade Bot |
-| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-| ETH | +,+,+ | + | + | - | - | - | + | + | + |
-| tBNB | +,+,+ | + | + | + | + | + | + | + | + |
-| BNB | +,+,+ | + | + | + | + | + | + | + | + |
-| Avalanche C-Chain | - | - | - | - | - | - | - | - | - |
-| Polygon | +,+,+ | + | + | + | + | + | + | + | + |
-| Fantom | +,-,- | + | - | - | - | - | - | - | - |
-| Arbitrum | +,+,+ | + | - | - | - | + | - | - | - |
-| Base | +,+,+ | + | - | - | - | - | - | - | - |
-| Optimism | +,+,+ | + | - | - | - | - | - | - | - |
-| Blast | +,-,- | + | - | - | - | - | - | - | - |
-| Polygon zkEVM | +,-,- | - | - | - | - | - | - | - | - |
+| # | Create Tokens, Tax, Stable | Multi Transfers | Create LP | Lock | Swap | Staking | Airdrop | TokenSale | Trade Bot | Shop |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| ETH | +,+,+ | + | + | - | - | - | + | + | + | - |
+| tBNB | +,+,+ | + | + | + | + | + | + | + | + | - |
+| BNB | +,+,+ | + | + | + | + | + | + | + | + | - |
+| Avalanche C-Chain | - | - | - | - | - | - | - | - | - | - |
+| Polygon | +,+,+ | + | + | + | + | + | + | + | + | + |
+| Fantom | +,-,- | + | - | - | - | - | - | - | - | - |
+| Arbitrum | +,+,+ | + | - | - | - | + | - | - | - | - |
+| Base | +,+,+ | + | - | - | - | - | - | - | - | - |
+| Optimism | +,+,+ | + | - | - | - | - | - | - | - | - |
+| Blast | +,-,- | + | - | - | - | - | - | - | - | - |
+| Polygon zkEVM | +,-,- | - | - | - | - | - | - | - | - | - |
 
 
 #### Create LP table
@@ -43,6 +43,7 @@
 
 ### Versions
 
+- [v1.0.53](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.53) - A new Shop module has been added. It enables shop registration for decentralized payment acceptance. The module operates on the Polygon network and is intended for testing purposes only. Experimental.
 - [v1.0.52](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.52) - Implemented Countdown Timer on Presale, Airdrop, Staking pages.
 - [v1.0.51](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.51) - Trading bot. A trading bot designed to increase trading activity and liquidity of a token on decentralized exchanges (DEX). Experimental.
 - [v1.0.50](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.50) - How Much to Pump? Output table for pump on token sale page and add liquidity.

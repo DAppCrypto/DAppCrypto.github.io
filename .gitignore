@@ -1,5 +1,8 @@
 .idea
 dev.html
+admin
+dappFrontend/js/dappcrypto.js
+dappFrontend/js/dappcrypto.obf.js
 dappFrontend/json/chainsData.json
 dappFrontend/json/chainsDataTest.json
 dappFrontend/txt/chainsTest.txt
