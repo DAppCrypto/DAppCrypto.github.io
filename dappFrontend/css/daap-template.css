@@ -1144,3 +1144,16 @@ h2 {
 .CountdownTimer {
 
 }
+
+
+/*
+PhoneWalletLink
+ */
+.PhoneWalletLink {
+    display: block;
+    width: 50px;
+    margin-bottom: 10px;
+}
+.PhoneWalletLink img {
+    max-width: 100%;
+}

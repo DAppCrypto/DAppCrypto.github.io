@@ -14,9 +14,9 @@
 
 | # | Create Tokens, Tax, Stable | Multi Transfers | Create LP | Lock | Swap | Staking | Airdrop | TokenSale | Trade Bot | Shop |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-| ETH | +,+,+ | + | + | - | - | - | + | + | + | - |
+| ETH | +,+,+ | + | + | - | - | - | + | + | + | + |
 | tBNB | +,+,+ | + | + | + | + | + | + | + | + | - |
-| BNB | +,+,+ | + | + | + | + | + | + | + | + | - |
+| BNB | +,+,+ | + | + | + | + | + | + | + | + | + |
 | Avalanche C-Chain | - | - | - | - | - | - | - | - | - | - |
 | Polygon | +,+,+ | + | + | + | + | + | + | + | + | + |
 | Fantom | +,-,- | + | - | - | - | - | - | - | - | - |
@@ -43,6 +43,7 @@
 
 ### Versions
 
+- [v1.0.54](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.54) - The "Shop" module has been updated. It allows you to register stores to accept decentralized payments. The module works on the Ethereum network, BNB Smart Chain, and Polygon. Experimental.
 - [v1.0.53](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.53) - A new Shop module has been added. It enables shop registration for decentralized payment acceptance. The module operates on the Polygon network and is intended for testing purposes only. Experimental.
 - [v1.0.52](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.52) - Implemented Countdown Timer on Presale, Airdrop, Staking pages.
 - [v1.0.51](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.51) - Trading bot. A trading bot designed to increase trading activity and liquidity of a token on decentralized exchanges (DEX). Experimental.
