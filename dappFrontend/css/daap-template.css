@@ -211,10 +211,9 @@ h2 {
     width: 100%;
     min-height: 34px;
     line-height: 34px;
-    text-indent: 40px;
+    text-indent: 5px;
     border-bottom: 1px solid #22a9d1;
     padding: 5px 0px;
-    text-indent: 40px;
 }
 
 .MultiMenu li:last-child a {
@@ -224,10 +223,11 @@ h2 {
 .MultiMenu img {
     width: 32px;
     height: 32px;
-    position: absolute;
     left: 4px;
     top: 5px;
     border-radius: 100%;
+    float: left;
+    margin-left: 3px;
 }
 
 .MultiMenu a:hover {
