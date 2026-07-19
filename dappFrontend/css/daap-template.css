@@ -145,20 +145,29 @@ h2 {
 .MultiMenuButton,
 .dappBtn {
     display: table;
-    background: #eff4f5;
+    /* background: #eff4f5; */
     padding: 0px 15px;
-    border-radius: 20px;
-    font-size: 18px;
-    font-weight: bold;
+    /* border-radius: 20px; */
+    /* font-size: 18px; */
+    /* font-weight: bold; */
     color: #280d5f;
-    float: right;
+    /*float: right;*/
     margin: 5px;
     cursor: pointer;
     text-decoration: none;
     position: relative;
-    height: 32px;
-    text-indent: 24px;
+    /* height: 32px; */
+    /* text-indent: 24px; */
     line-height: 32px;
+    border-radius: 0px;
+}
+
+@media (max-width: 800px) {
+
+.dappContent .dappBlock .ConnectWalletBtn {
+    display: table;
+}
+
 }
 
 .MultiMenuButton img,
@@ -254,6 +263,10 @@ h2 {
     }
 }
 
+/* DappWalletWidgetBlock */
+.DappWalletWidgetBlock {
+    float: right;
+}
 
 .dappBlock[data-dapp-block=DappWalletBlock],
 .dappBlock[data-dapp-block=DappSelectNetworkBlock],
@@ -261,6 +274,9 @@ h2 {
     float: right;
     display: table;
 }
+/*.dappBlock[data-dapp-block=DappWalletBlock] {
+    display: none;
+}*/
 
 .dappBlock[data-dapp-block=DappShowFullBlock] {
     display: none;
@@ -278,6 +294,9 @@ h2 {
         display: block;
         clear: both;
     }
+    /*.dappBlock[data-dapp-block=DappWalletBlock] {
+        display: none;
+    }*/
     .MultiMenuButton,
     .dappBtn {
         display: block;
@@ -298,6 +317,13 @@ h2 {
 .dt { display: table; }
 .db { display: block; }
 .dn { display: none; }
+
+@media (max-width: 800px) {
+    /* display */
+    .m-dt { display: table; }
+    .m-db { display: block; }
+    .m-dn { display: none; }
+}
 
 /* display */
 .w100 { width: 100%; }
@@ -431,25 +457,73 @@ h2 {
 /* page Swap ST */
 
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentSwapSTBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
+
+/* page NFT */
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentTNFTsBlock] .contentBlock {
+    max-width: 800px;
+}
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentNFTDetailsBlock] .contentBlock {
+    max-width: 800px;
+}
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentNFTMintLinkGeneratorBlock] .contentBlock {
+    max-width: 800px;
+}
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentNFTItemBlock] .contentBlock {
+    max-width: 800px;
+}
+
+.dappBodyBlock .dappBlock[data-dapp-block=DappContentMintNFTsBlock] .contentBlock {
+    max-width: 800px;
+}
+.NFTFilesBlock img {
+    max-height: 250px;
+    max-width: 250px;
+}
+.NFTFilesBlock .paramsTable .paramsTableR {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.NFTFilesBlock .paramsTable .paramsTableR .paramsTableC:nth-of-type(1) {
+    min-width: 300px;
+    width: 50%;
+}
+.dappBodyBlock .contentBlock .NFTFilesBlock .paramsTable .paramsTableR .paramsTableC:nth-of-type(1) textarea,
+.dappBodyBlock .contentBlock .NFTFilesBlock .paramsTable .paramsTableR .paramsTableFull textarea
+{
+    height: 100px;
+    min-height: 100px;
+}
+.nft-mini-img {
+    width: 300px;
+    height: 300px;
+    background-image: url('../imgs/icons/logodc.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nft-max-img {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
 
 /* page CPay */
 
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayReceiptBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentCreateCPayPoolBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayInvoiceGeneratorBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayDetailsBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentCPayInvoiceBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .RadioPayTokensBlock {
@@ -611,7 +685,7 @@ h2 {
 /* page Trading Bot */
 
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentTradingBotBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .dappBodyBlock .contentBlock .daap-simple-form textarea[name=TradingBotSeedPhrase] {
@@ -621,7 +695,7 @@ h2 {
 /* page Pairs */
 
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentPairDetailsBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .swapRevers {
@@ -640,64 +714,64 @@ h2 {
 /* page Locks */
 
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentLockTokensBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 /* page LockDetails */
 
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentLockDetailsBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 /* page CreateToken */
 
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentTokenTokensBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 /* page Partner */
 
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentPartnerBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 /* page TokenDetails */
 
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentTokenDetailsBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 /* page CreateLiquidity */
 
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentLiquidityTokensBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 /* page CreateLaunchpad */
 
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentLaunchpadTokensBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentLaunchpadDetailsBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 /* page CreateAirdrop */
 
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentAirdropTokensBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentAirdropDetailsBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 
 /* page MultiTransfers */
 
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentMultiTransfersBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .dappBodyBlock .contentBlock {
@@ -753,6 +827,10 @@ h2 {
     min-width: 20px;
     margin-right: 5px;
 }
+.dappBodyBlock .contentBlock .daap-simple-form input[type=file] {
+    border: none;
+    background: none;
+}
 .dappBodyBlock .contentBlock .daap-simple-form textarea {
     width: 98%;
     min-width: 98%;
@@ -798,6 +876,7 @@ h2 {
     color: #fff;
     width: 100%;
     text-align: center;
+    border: none;
 }
 .dappBodyBlock .contentBlock .daap-simple-form .formBtn.BtnSmall {
     background: #b5b1b1;
@@ -842,10 +921,11 @@ h2 {
 
 }
 .dappBlock[data-dapp-block=DappBottomMenuBlock] .footer-menu {
-    padding: 10px 1%;
+    padding: 0px 0px;
+    margin: 0px;
 }
 .dappBlock[data-dapp-block=DappBottomMenuBlock] .footer-menu li {
-    padding-bottom: 5px;
+    padding-bottom: 0px;
     float: left;
     margin: 5px 10px;
 }
@@ -860,12 +940,12 @@ h2 {
 
 /* CreateStaking */
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentStakingTokensBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 /* CreateStaking */
 .dappBodyBlock .dappBlock[data-dapp-block=DappContentStakingDetailsBlock] .contentBlock {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 /* Search Staking */
@@ -1158,3 +1238,41 @@ PhoneWalletLink
 .PhoneWalletLink img {
     max-width: 100%;
 }
+
+
+
+
+/*
+New Temp
+ */
+.leftMenu img {
+    width: 23px;
+    height: 23px;
+}
+.dappBlock[data-dapp-block=DappSelectNetworkBlock] img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.langBlock {
+    max-height: 300px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+@media (max-width: 800px) {
+    .dropup, .dropend, .dropdown, .dropstart, .dropup-center, .dropdown-center {
+        position: static;
+    }
+}
+
+.app-footer {
+    position: fixed;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+}
+
+.border-dashed { border-style: dashed !important; }

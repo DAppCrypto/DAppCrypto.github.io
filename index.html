@@ -13,18 +13,78 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
-    <!--<script src="dappFrontend/js/includes/qrcode.min.js?cache=1"></script>-->
-    <script src="dappFrontend/js/includes/qr-code-styling.js"></script>
-    <script src="dappFrontend/js/includes/bignumber.min.js?cache=1"></script>
-    <script src="dappFrontend/js/includes/chart.js?cache=1"></script>
-    <script src="dappFrontend/js/includes/crypto-js.js?cache=1"></script>
-    <script src="dappFrontend/js/includes/pako.min.js?cache=1"></script>
-    <!--<script src="dappFrontend/js/web3.min.js?cache=1"></script>-->
-    <!--<script type="module" src="dappFrontend/js/dappcrypto.js?cache=37"></script>-->
-    <script type="module" src="dappFrontend/js/dappcrypto.min.js?cache=46"></script>
+    <!--<script src="/src/js/includes/qr-code-styling.js"></script>
+    <script src="/src/js/includes/bignumber.min.js?cache=1"></script>
+    <script src="/src/js/includes/chart.js?cache=1"></script>
+    <script src="/src/js/includes/crypto-js.js?cache=1"></script>
+    <script src="/src/js/includes/pako.min.js?cache=1"></script>-->
+
+
+
+    <!--begin::Accessibility Features-->
+    <!-- Skip links will be dynamically added by accessibility.js -->
+    <meta name="supported-color-schemes" content="light dark"/>
+    <link rel="preload" href="/template/css/adminlte.css" as="style"/>
+    <!--end::Accessibility Features-->
+
+    <!--begin::Fonts-->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5.0.12/index.css"
+          integrity="sha256-tXJfXfp6Ewt1ilPzLDtQnJV4hclT9XuaZUKyUvmyr+Q="
+          crossorigin="anonymous"
+          media="print"
+          onload="this.media = 'all'"
+    />
+    <!--end::Fonts-->
+
+    <!--begin::Third Party Plugin(OverlayScrollbars)-->
+    <link rel="stylesheet" href="/template/css/overlayscrollbars.min.css" crossorigin="anonymous"/>
+    <!--end::Third Party Plugin(OverlayScrollbars)-->
+
+    <!--begin::Third Party Plugin(Bootstrap Icons)-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" crossorigin="anonymous"/>
+    <!--end::Third Party Plugin(Bootstrap Icons)-->
+
+    <!--begin::Required Plugin(AdminLTE)-->
+    <link rel="stylesheet" href="/template/css/adminlte.css"/>
+    <!--end::Required Plugin(AdminLTE)-->
+
+
 
     <link rel="stylesheet" href="dappFrontend/css/font-awesome.css" type="text/css">
-    <link rel="stylesheet" href="dappFrontend/css/daap-template.css?cache=46" type="text/css">
+    <link rel="stylesheet" href="dappFrontend/css/daap-template.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.5.0/css/flag-icons.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cryptocoins-icons@2.9.0/webfont/cryptocoins.min.css">
+  <script type="module" crossorigin src="/assets/index-6rxaNjax.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/utils-rdI07RK4.js">
+  <link rel="modulepreload" crossorigin href="/assets/secp256k1-BQa7w2it.js">
+  <link rel="modulepreload" crossorigin href="/assets/ccip-BJScROx9.js">
+  <link rel="modulepreload" crossorigin href="/assets/ModalController-6SMPj5P2.js">
+  <link rel="modulepreload" crossorigin href="/assets/index.es-BjNaCBtK.js">
+  <link rel="modulepreload" crossorigin href="/assets/ErrorUtil-Bvt3pFis.js">
+  <link rel="modulepreload" crossorigin href="/assets/_esm-BAIxIdoK.js">
+  <link rel="modulepreload" crossorigin href="/assets/zora-CBgl-fcL.js">
+  <link rel="modulepreload" crossorigin href="/assets/ConstantsUtil-Cvp5kPal.js">
+  <link rel="modulepreload" crossorigin href="/assets/CaipNetworkUtil-D4IRneB0.js">
+  <link rel="modulepreload" crossorigin href="/assets/OnRampController-CoffEUi4.js">
+  <link rel="modulepreload" crossorigin href="/assets/SIWXUtil-BLrk0ACB.js">
+  <link rel="modulepreload" crossorigin href="/assets/EnsController-Bw06U3sf.js">
+  <link rel="modulepreload" crossorigin href="/assets/AlertController-Z0ur9wCt.js">
+  <link rel="modulepreload" crossorigin href="/assets/ExchangeUtil-RDVjiWO0.js">
+  <link rel="modulepreload" crossorigin href="/assets/HelpersUtil-DQyXLsM_.js">
+  <link rel="modulepreload" crossorigin href="/assets/exports-ClBc5snA.js">
 </head>
-<body class="dappContent" data-page="CreateToken"></body>
+<body class="layout-fixed sidebar-expand-lg bg-body-tertiary">
+
+<div class="dappContent" data-page="CreateToken"></div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/overlayscrollbars@2.11.0/browser/overlayscrollbars.browser.es6.min.js" crossorigin="anonymous"></script>
+<!--end::Third Party Plugin(OverlayScrollbars)--><!--begin::Required Plugin(popperjs for Bootstrap 5)-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+<!--end::Required Plugin(popperjs for Bootstrap 5)--><!--begin::Required Plugin(Bootstrap 5)-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<!--end::Required Plugin(Bootstrap 5)--><!--begin::Required Plugin(AdminLTE)-->
+<script src="/template/js/adminlte.js"></script>
+</body>
 </html>
