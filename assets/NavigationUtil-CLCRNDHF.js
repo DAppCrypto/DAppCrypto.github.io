@@ -1,1 +1,0 @@
-var e={URLS:{FAQ:`https://walletconnect.com/faq`}};export{e as t};
