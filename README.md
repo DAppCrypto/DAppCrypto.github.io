@@ -43,6 +43,7 @@
 
 ### Versions
 
+- [v1.0.56](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.56) - Wallet update.
 - [v1.0.55](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.55) - WalletConnect: AppKit, design, NFT.
 - [v1.0.54](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.54) - The "Shop" module has been updated. It allows you to register stores to accept decentralized payments. The module works on the Ethereum network, BNB Smart Chain, and Polygon. Experimental.
 - [v1.0.53](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.53) - A new Shop module has been added. It enables shop registration for decentralized payment acceptance. The module operates on the Polygon network and is intended for testing purposes only. Experimental.
