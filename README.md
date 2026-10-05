@@ -13,18 +13,18 @@
 #### DAppCrypto table
 
 | # | Create Tokens, Tax, Stable | Multi Transfers | Create LP | Lock | Swap | Staking | Airdrop | TokenSale | Trade Bot | Shop |
-| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-| ETH | +,+,+ | + | + | - | - | - | + | + | + | + |
-| tBNB | +,+,+ | + | + | + | + | + | + | + | + | - |
-| BNB | +,+,+ | + | + | + | + | + | + | + | + | + |
-| Avalanche C-Chain | - | - | - | - | - | - | - | - | - | - |
-| Polygon | +,+,+ | + | + | + | + | + | + | + | + | + |
-| Fantom | +,-,- | + | - | - | - | - | - | - | - | - |
-| Arbitrum | +,+,+ | + | - | - | - | + | - | - | - | - |
-| Base | +,+,+ | + | - | - | - | - | - | - | - | - |
-| Optimism | +,+,+ | + | - | - | - | - | - | - | - | - |
-| Blast | +,-,- | + | - | - | - | - | - | - | - | - |
-| Polygon zkEVM | +,-,- | - | - | - | - | - | - | - | - | - |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |:----:|
+| ETH | +,+,+ | + | + | - | - | - | + | + | + |  +   |
+| tBNB | +,+,+ | + | + | + | + | + | + | + | + |  -   |
+| BNB | +,+,+ | + | + | + | + | + | + | + | + |  +   |
+| Avalanche C-Chain | - | - | - | - | - | - | - | - | - |  -   |
+| Polygon | +,+,+ | + | + | + | + | + | + | + | + |  +   |
+| Fantom | +,-,- | + | - | - | - | - | - | - | - |  -   |
+| Arbitrum | +,+,+ | + | - | - | - | + | - | - | - |  +   |
+| Base | +,+,+ | + | - | - | - | - | - | - | - |  +   |
+| Optimism | +,+,+ | + | - | - | - | - | - | - | - |  -   |
+| Blast | +,-,- | + | - | - | - | - | - | - | - |  -   |
+| Polygon zkEVM | +,-,- | - | - | - | - | - | - | - | - |  -   |
 
 
 #### Create LP table
@@ -43,6 +43,7 @@
 
 ### Versions
 
+- [v1.0.57](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.57) - RPC update, Shop in Arbitrum and Base.
 - [v1.0.56](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.56) - Wallet update.
 - [v1.0.55](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.55) - WalletConnect: AppKit, design, NFT.
 - [v1.0.54](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.54) - The "Shop" module has been updated. It allows you to register stores to accept decentralized payments. The module works on the Ethereum network, BNB Smart Chain, and Polygon. Experimental.
