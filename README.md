@@ -13,18 +13,15 @@
 #### DAppCrypto table
 
 | # | Create Tokens, Tax, Stable | Multi Transfers | Create LP | Lock | Swap | Staking | Airdrop | TokenSale | Trade Bot | Shop |
-| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-| ETH | +,+,+ | + | + | - | - | - | + | + | + | + |
-| tBNB | +,+,+ | + | + | + | + | + | + | + | + | - |
-| BNB | +,+,+ | + | + | + | + | + | + | + | + | + |
-| Avalanche C-Chain | - | - | - | - | - | - | - | - | - | - |
-| Polygon | +,+,+ | + | + | + | + | + | + | + | + | + |
-| Fantom | +,-,- | + | - | - | - | - | - | - | - | - |
-| Arbitrum | +,+,+ | + | - | - | - | + | - | - | - | - |
-| Base | +,+,+ | + | - | - | - | - | - | - | - | - |
-| Optimism | +,+,+ | + | - | - | - | - | - | - | - | - |
-| Blast | +,-,- | + | - | - | - | - | - | - | - | - |
-| Polygon zkEVM | +,-,- | - | - | - | - | - | - | - | - | - |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |:----:|
+| ETH | +,+,+ | + | + | - | - | - | + | + | + |  +   |
+| tBNB | +,+,+ | + | + | + | + | + | + | + | + |  -   |
+| BNB | +,+,+ | + | + | + | + | + | + | + | + |  +   |
+| Arbitrum | +,+,+ | + | - | - | - | + | - | - | - |  +   |
+| Base | +,+,+ | + | - | - | - | - | - | - | - |  +   |
+| Polygon | +,+,+ | + | + | + | + | + | + | + | + |  +   |
+| Fantom | +,-,- | + | - | - | - | - | - | - | - |  -   |
+| Optimism | +,+,+ | + | - | - | - | - | - | - | - |  -   |
 
 
 #### Create LP table
@@ -34,7 +31,6 @@
 | ETH | - | - | - | - | - |
 | tBNB | - | + | - | - | - |
 | BNB | + | + | + | - | - |
-| Avalanche C-Chain | - | - | - | - | - |
 | Polygon | + | - | + | - | + |
 | Fantom | - | - | - | - | - |
 | Arbitrum | - | - | - | - | - |
@@ -43,7 +39,9 @@
 
 ### Versions
 
-- [v1.0.57](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.57) - CPay update contracts, Ethereum, BSC
+- [v1.0.59](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.59) - CPay update contracts, Ethereum, BSC, Arbitrum, Base, Polygon. Support tax for service and partners.
+- [v1.0.58](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.58) - CPay update contracts, Ethereum, BSC
+- [v1.0.57](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.57) - RPC update, Shop in Arbitrum and Base.
 - [v1.0.56](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.56) - Wallet update.
 - [v1.0.55](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.55) - WalletConnect: AppKit, design, NFT.
 - [v1.0.54](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.54) - The "Shop" module has been updated. It allows you to register stores to accept decentralized payments. The module works on the Ethereum network, BNB Smart Chain, and Polygon. Experimental.
@@ -89,7 +87,7 @@
 - [v1.0.14](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.14) - support for adding first liquidity Uniswap V2, SushiSwap v2, QuickSwap v2 to tokens on the Polygon $MATIC. Experimental.
 - [v1.0.13](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.13) - support for adding first liquidity Uniswap V2 to tokens on the Polygon $MATIC. Experimental.
 - [v1.0.12](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.12) - support for creating new simple tokens v2 with a promo page on the Optimism $OP.
-- [v1.0.11](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.11) - Added support for adding first liquidity v2 to tokens on the BNB Smart Chain Testnet. 
+- [v1.0.11](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.11) - Added support for adding first liquidity v2 to tokens on the BNB Smart Chain Testnet.
 - [v1.0.10](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.10) - MultiTransfers supports bulk transfers of tokens and BNB to the Binance Smart Chain $BNB.
 - [v1.0.9](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.9) - support for creating new simple tokens v2 with a promo page on the Arbitrum $ARB.
 - [v1.0.8](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.8) - support for creating new simple tokens v2 on the Binance Smart Chain $BNB, Polygon $MATIC, Fantom Opera $FTM.
