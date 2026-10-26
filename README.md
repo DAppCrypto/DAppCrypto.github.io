@@ -39,6 +39,7 @@
 
 ### Versions
 
+- [v1.0.60](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.60) - CPay update contracts, Ethereum, BSC, Arbitrum, Base, Polygon. Support AML.
 - [v1.0.59](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.59) - CPay update contracts, Ethereum, BSC, Arbitrum, Base, Polygon. Support tax for service and partners.
 - [v1.0.58](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.58) - CPay update contracts, Ethereum, BSC
 - [v1.0.57](https://github.com/DAppCrypto/DAppCrypto.github.io/releases/tag/v1.0.57) - RPC update, Shop in Arbitrum and Base.
